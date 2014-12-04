@@ -1,0 +1,21 @@
+SMAP
+_fw_0tsql_0gen__jsp.java
+JSP
+*S JSP
+*F
++ 1 fw_tsql_gen.jsp
+base/fw_tsql_gen.jsp
++ 2 ArchJsp.jspf
+base/include/ArchJsp.jspf
+*L
+1#1:62
+10#2,9:63
+2#1:72
+4#1:73,2
+6#1,4:75
+9#1:79
+13#1,4:80
+16#1:84
+19#1:85,2
+21#1:87
+*E

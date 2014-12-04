@@ -1,0 +1,18 @@
+^[resin-shutdown,08:39:44.708][Engine] ■■■■■■■■■■■■ CNI Framework [WEB] Shutdown START     ■■■■■■■■■■■■
+^[resin-shutdown,08:39:44.887][ConnectionPoolManager] 커낵션풀을 제거합니다.
+^[resin-shutdown,08:39:44.888][ConnectionPoolManager] 커낵션풀의 커낵션 반납 [0]
+^[resin-shutdown,08:39:44.888][ConnectionPoolManager] 커낵션풀의 커낵션 반납 완료
+^[resin-shutdown,08:39:44.888][WebFrameManager] FMB Group 제거 시작 [WebFrame Type]
+^[resin-shutdown,08:39:44.888][WebFrameManager] FMB #1-CP [UNREGISTER]
+^[resin-shutdown,08:39:44.888][WebFrameManager] FMB #2-SP [UNREGISTER]
+^[resin-shutdown,08:39:44.888][WebFrameManager] FMB #3-IP [UNREGISTER]
+^[resin-shutdown,08:39:44.888][WebFrameManager] FMB #4-TM [UNREGISTER]
+^[resin-shutdown,08:39:44.888][WebFrameManager] FMB #5-SM [UNREGISTER]
+^[resin-shutdown,08:39:44.889][WebFrameManager] FMB #6-OP [UNREGISTER]
+^[resin-shutdown,08:39:44.889][WebFrameManager] FMB #7-PP [UNREGISTER]
+^[resin-shutdown,08:39:44.889][WebFrameManager] FMB Group 제거 완료 [WebFrame Type]
+^[resin-shutdown,08:39:44.889][Engine] [MessageRepository] *DROP*
+^[resin-shutdown,08:39:44.909][Engine] [ApplicationConfig] *DROP*
+^[resin-shutdown,08:39:44.909][Engine] [BaseConfig] *DROP*
+^[resin-shutdown,08:39:44.909][Engine] ■■■■■■■■■■■■ CNI Framework [WEB] Shutdown COMPLETE! ■■■■■■■■■■■■
+^[resin-shutdown,08:39:44.909][Engine] [LogManager] *DROP*

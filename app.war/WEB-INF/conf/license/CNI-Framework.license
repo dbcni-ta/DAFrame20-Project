@@ -1,0 +1,14 @@
+# Dongbu-CNI Framework license (동부익스프레스-KMC)
+#
+# 운영 : 210.127.51.223
+#
+product=DAFrame
+version=1.9.x
+type=Due
+users=-1
+cpus=unlimit
+expiration=unlimit
+ip=192.168.56.1
+date=2014.11.21
+etc=
+serial=DONGBUCNI-DAFRAME-PPPP-2014-M-20-OPR

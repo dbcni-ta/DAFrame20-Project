@@ -1,0 +1,11 @@
+#Thu Jun 28 10:36:38 KST 2012
+eclipse.preferences.version=1
+encoding//app.war/WEB-INF/conf/admin.conf=UTF-8
+encoding//app.war/WEB-INF/conf/prop/example_kor.properties=EUC-KR
+encoding//app.war/WEB-INF/conf/prop/pageNavi.properties=UTF-8
+encoding//app.war/WEB-INF/conf/prop/sso_federation.properties=EUC-KR
+encoding//app.war/WEB-INF/gen/template/AC-001.EUC-KR.src=EUC-KR
+encoding//app.war/WEB-INF/gen/template/AC-001.src=EUC-KR
+encoding//app.war/WEB-INF/gen/template/TSQL-001.EUC-KR.src=EUC-KR
+encoding//app.war/WEB-INF/gen/template/TSQL-001.src=EUC-KR
+encoding/<project>=UTF-8

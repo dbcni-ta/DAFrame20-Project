@@ -1,0 +1,864 @@
+^[main,14:19:03.100][Engine] 
+^[main,14:19:03.115][Engine] [LogManager] *LOADED*
+^[main,14:19:03.115][Engine] ■■■■■■■■■■■■ CNI Framework [WEB] ServiceStarter INITIALIZE ■■■■■■■■■■■■
+^[main,14:19:03.115][Engine] [MessageRepository] *LOADED*
+^[main,14:19:03.115][Engine] ■■■■■■■■■■■■ * Framework Ver. : 2.0.20 (Copyright 2007-2014 by Dongbu CNI All Rights Reserved)
+^[main,14:19:03.115][Engine] ■■■■■■■■■■■■ * Framework HOME : D:/AWSProject/workspace/daframe20_evaluation_test/app.war/
+^[main,14:19:03.115][Engine] ■■■■■■■■■■■■ * Context Name   : 
+^[main,14:19:03.115][Engine] ■■■■■■■■■■■■ * Log Level      : DEBUG
+^[main,14:19:03.131][WebFrameManager] *LICENSE* 라이센스를 확인합니다.
+^[main,14:19:03.318][WebFrameManager] *LICENSE* 제약 IP : [192.168.56.1]
+^[main,14:19:03.318][WebFrameManager] *LICENSE* 동시사용자 제약 : [unlimit]
+^[main,14:19:03.318][WebFrameManager] *LICENSE* 만기일 제약 : [unlimit] *TODAY:20141203*
+^[main,14:19:03.318][WebFrameManager] *LICENSE* 라이센스 확인을 완료 : [Serial# : DONGBUCNI-DAFRAME-PPPP-2014-M-20-OPR]
+^[main,14:19:03.318][ConnectionPoolManager] [내장커낵션] 커낵션 풀을 사용하지 않습니다. (기반데이타베이스 설정:datasource)
+^[main,14:19:03.334][Engine] Tactics를 초기화합니다. [Tactics 쿼리파일 홈디렉토리:WEB-INF/tsql]
+^[main,14:19:03.817][WebFrameManager] FMB Group 생성 시작 [WebFrame Type, JMX:false]
+^[main,14:19:03.817][WebFrameManager] FMB #1-CP : com.cni.fw.web.fmb.cp.CommandProcess
+^[main,14:19:03.817][Engine] [CustomClassLoader] *RELOADED*
+^[main,14:19:03.817][WebFrameManager] [PARAM] <CMD_NULL:NO_CMD>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <CMD_NOFOUND:NO_CMD>
+^[main,14:19:03.833][WebFrameManager] FMB #2-SP : com.cni.fw.web.fmb.sm.RepositoryBasedSessionProcess
+^[main,14:19:03.833][WebFrameManager] [PARAM] <SESSION_NOFOUND:NO_SESSION>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <SESSION_PEPOSITORY_CLASS:com.cni.fw.web.session.repository.SimpleSessionRepository>
+^[main,14:19:03.833][WebFrameManager] FMB #3-IP : com.cni.fw.web.fmb.iop.InputProcess
+^[main,14:19:03.833][WebFrameManager] [PARAM] <X:>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <WEB:com.cni.fw.made.web.cc.ip.IPW001CC>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <AJAX:com.cni.fw.made.web.cc.ip.IPA001CC>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <WEB-CHK-ADM:com.cni.fw.made.web.cc.ip.IPW002CC>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <WEB-CHK-DUP:com.cni.fw.made.web.cc.ip.IPW003CC>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <FILE:com.cni.fw.made.web.cc.ip.IPF001CC>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <FILE-AJAX:com.cni.fw.made.web.cc.ip.IPA002CC>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <XML:com.cni.fw.made.web.cc.ip.IPX001CC>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <WEB-LTO:com.cni.fw.mci.web.IpWebLtoType01CC>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <AJAX-LTO:com.cni.fw.mci.web.IpAjaxLtoType01CC>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <WISE:com.daframe.mci.cc.ip.IPWISE003CC>
+^[main,14:19:03.833][WebFrameManager] FMB #4-TM : com.cni.fw.web.fmb.tm.TransactionManagement
+^[main,14:19:03.833][WebFrameManager] [PARAM] <INPUT-LOG:true>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <Redirect:SKIP>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <Page:SKIP>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <NA:com.cni.fw.arch.smb.ac.BasicService>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <Tx:com.cni.fw.arch.smb.ac.NormalTxService>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <Tx2:com.cni.fw.arch.smb.ac.ThreadSafeTxService>
+^[main,14:19:03.833][WebFrameManager] [PARAM] <SAP:com.cni.fw.arch.smb.ac.SapTxService>
+^[main,14:19:03.833][WebFrameManager] FMB #5-SM : com.cni.fw.web.fmb.sm.RepositoryBasedSessionManagement
+^[main,14:19:03.849][WebFrameManager] [PARAM] <SESSION_NOFOUND:NO_SESSION>
+^[main,14:19:03.849][WebFrameManager] [PARAM] <SESSION_PEPOSITORY_CLASS:com.cni.fw.web.session.repository.SimpleSessionRepository>
+^[main,14:19:03.849][WebFrameManager] FMB #6-OP : com.cni.fw.web.fmb.iop.OutputProcess
+^[main,14:19:03.849][WebFrameManager] [PARAM] <X:>
+^[main,14:19:03.849][WebFrameManager] [PARAM] <SECOND-COMMAND:TM>
+^[main,14:19:03.849][WebFrameManager] [PARAM] <CHAINED:TM>
+^[main,14:19:03.849][WebFrameManager] [PARAM] <CHAINED-TX:TM>
+^[main,14:19:03.927][WebFrameManager] [PARAM] <BRANCH:TM>
+^[main,14:19:03.927][WebFrameManager] [PARAM] <BRANCH-TX:TM>
+^[main,14:19:03.927][WebFrameManager] [PARAM] <JSP:com.cni.fw.made.web.cc.op.OPW001CC>
+^[main,14:19:03.927][WebFrameManager] [PARAM] <XML:com.cni.fw.mci.OpXmlType01CC>
+^[main,14:19:03.927][WebFrameManager] [PARAM] <JSON:com.cni.fw.mci.OpJsonType01CC>
+^[main,14:19:03.927][WebFrameManager] [PARAM] <FILE:com.cni.fw.made.web.cc.op.OPF001CC>
+^[main,14:19:03.927][WebFrameManager] [PARAM] <EXCEL:com.cni.fw.made.web.cc.op.OPXLS001CC>
+^[main,14:19:04.005][WebFrameManager] [PARAM] <WISE:com.daframe.mci.cc.op.OPWISE003CC>
+^[main,14:19:04.005][WebFrameManager] FMB #7-PP : com.cni.fw.web.fmb.pp.PageProcess
+^[main,14:19:04.005][WebFrameManager] FMB Group 생성 완료 [WebFrame Type, Size:7]
+^[main,14:19:04.005][Engine] ■■■■■■■■■■■■ CNI Framework [WEB] ServiceStarter COMPLETE ! ■■■■■■■■■■■■
+^[1:PNHG:20141203-1,14:19:14.500][WebFrameManager] 
+^[1:PNHG:20141203-1,14:19:14.501][WebFrameManager] ■■■■■■ FMB 서비스 처리를 시작합니다. ■■■■■■■■■■■■■■■■■■
+^[1:PNHG:20141203-1,14:19:14.501][Engine] [CustomClassLoader] *RELOADED*
+^[1:PNHG:20141203-1,14:19:14.520][WebFrameManager] ■■■ [*UNKNOWN*] FMB - #1[CP] : 처리 시작
+^[1:PNHG:20141203-1,14:19:14.522][FMB-CP] 요청된 커맨드 정보 : [console]
+^[1:PNHG:20141203-1,14:19:14.523][CommandRepository] >>>>> CHECKING META INTEGRITY >>>>>
+^[1:PNHG:20141203-1,14:19:14.977][System] [META:EXCEL] Loading.. [SysCommandMeta.xls] (23)
+^[1:PNHG:20141203-1,14:19:15.029][System] [META:EXCEL] Loading.. [CommandMeta.xls] (0)
+^[1:PNHG:20141203-1,14:19:15.154][System] [META:EXCEL] Loading.. [EDU-01. CaseStudy.xls] (31)
+^[1:PNHG:20141203-1,14:19:15.165][System] [META:EXCEL] Loading.. [EDU-02. PracticeStudy.xls] (16)
+^[1:PNHG:20141203-1,14:19:15.173][System] [META:EXCEL] Loading.. [EX-01. BasicSample.xls] (39)
+^[1:PNHG:20141203-1,14:19:15.204][System] [META:EXCEL] Loading.. [EX-10. RIA_WISE.xls] (29)
+^[1:PNHG:20141203-1,14:19:15.210][System] [META:EXCEL] Loading.. [EX-21. SAP_Sample.xls] (2)
+^[1:PNHG:20141203-1,14:19:15.217][System] [META:EXCEL] Loading.. [SSO-01. Cert_Service.xls] (4)
+^[1:PNHG:20141203-1,14:19:15.221][System] [META:EXCEL] Loading.. [SYS-00. 공통.xls] (2)
+^[1:PNHG:20141203-1,14:19:15.221][CommandRepository] *RELOADED*
+^[1:PNHG:20141203-1,14:19:15.221][FMB-CP] 커맨드 로딩 완료 : [console]
+^[1:PNHG:20141203-1,14:19:15.222][WebFrameManager] ■■■ [console] FMB - #1[CP] : 처리 종료 (702 msec.)
+^[1:PNHG:20141203-1,14:19:15.223][WebFrameManager] ■■■ [console] FMB - #2[SP] : 처리 시작
+^[1:PNHG:20141203-1,14:19:15.226][FMB-SP] SESSION-ID [aaaYalrAO_zZtcdKl8eOu]
+^[1:PNHG:20141203-1,14:19:15.227][FMB-SP] 세션확인 성공 : [UserId:*Unknown*, Login:false]
+^[1:PNHG:20141203-1,14:19:15.227][WebFrameManager] ■■■ [console] FMB - #2[SP] : 처리 종료 (4 msec.)
+^[1:PNHG:20141203-1,14:19:15.228][WebFrameManager] ■■■ [console] FMB - #3[IP] : 처리 시작
+^[1:PNHG:20141203-1,14:19:15.230][FMB-IP] 입력데이타 파싱 [WEB]
+^[1:PNHG:20141203-1,14:19:15.245][WebFrameManager] ■■■ [console] FMB - #3[IP] : 처리 종료 (17 msec.)
+^[1:PNHG:20141203-1,14:19:15.246][WebFrameManager] ■■■ [console] FMB - #4[TM] : 처리 시작
+^[1:PNHG:20141203-1,14:19:15.246][FMB-TM] 
+□□□□□ CauseDTO □□□□□
+<Command:console><Redirect:.><WEB, JSP, /base/fw.jsp>
+□□□ CommonDTO □□□
+▶ System 변수 내역:
+[MTO Contents (R) :<Referer:null><RequestURI:/console.cmd><RequestURL:http://localhost/console.cmd><ServerName:localhost>]
+▶ Master 변수 내역:
+[MTO Contents (R) :]
+▶ MTO 데이타 내역:
+▶ ATO 데이타 내역:
+▶ LTO 데이타 내역:
+^[1:PNHG:20141203-1,14:19:15.253][FMB-TM] DummyService 실행 [Redirect형 업무]
+^[1:PNHG:20141203-1,14:19:15.254][ServiceCache] *NEW* [com.cni.fw.arch.smb.ac.DummyService]
+^[1:PNHG:20141203-1,14:19:15.263][WebFrameManager] ■■■ [console] FMB - #4[TM] : 처리 종료 (17 msec.)
+^[1:PNHG:20141203-1,14:19:15.263][WebFrameManager] ■■■ [console] FMB - #5[SM] : 처리 시작
+^[1:PNHG:20141203-1,14:19:15.264][FMB-SM] 세션 등록 [UserId:*Unknown*, IP:127.0.0.1, Login:false]
+^[1:PNHG:20141203-1,14:19:15.264][WebFrameManager] ■■■ [console] FMB - #5[SM] : 처리 종료 (1 msec.)
+^[1:PNHG:20141203-1,14:19:15.291][WebFrameManager] ■■■ [console] FMB - #6[OP] : 처리 시작
+^[1:PNHG:20141203-1,14:19:15.293][FMB-OP] 정상출력처리 [JSP]
+^[1:PNHG:20141203-1,14:19:15.293][FMB-OP] 출력데이타 규모 : 
+□□□ EffectDTO □□□
+▶ Model  사이즈 : 0
+□□□ CommonDTO □□□
+▶ System : 0
+▶ Master : 0
+▶ MTO Set : 0 []
+▶ ATO Set : 0 []
+▶ LTO Set : 0 []
+▶ RTO Set : 0 []
+^[1:PNHG:20141203-1,14:19:15.293][WebFrameManager] ■■■ [console] FMB - #6[OP] : 처리 종료 (2 msec.)
+^[1:PNHG:20141203-1,14:19:15.293][WebFrameManager] ■■■ [console] FMB - #7[PP] : 처리 시작
+^[1:PNHG:20141203-1,14:19:15.315][FMB-PP] 페이지 포워드 PATH 경로 : [/base/fw.jsp]
+^[1:PNHG:20141203-1,14:19:15.621][WebFrameManager] ■■■ [console] FMB - #7[PP] : 처리 종료 (328 msec.)
+^[1:PNHG:20141203-1,14:19:15.621][WebFrameManager] ■■■■■■ FMB 서비스 처리를 종료합니다. (총 수행시간 : 1121 msec.)
+^[1:PNHG:20141203-2,14:19:15.699][WebFrameManager] 
+^[1:PNHG:20141203-2,14:19:15.699][WebFrameManager] ■■■■■■ FMB 서비스 처리를 시작합니다. ■■■■■■■■■■■■■■■■■■
+^[1:PNHG:20141203-2,14:19:15.700][Engine] [CustomClassLoader] *RELOADED*
+^[1:PNHG:20141203-2,14:19:15.700][WebFrameManager] ■■■ [*UNKNOWN*] FMB - #1[CP] : 처리 시작
+^[1:PNHG:20141203-2,14:19:15.700][FMB-CP] 요청된 커맨드 정보 : [ADM000.A01]
+^[1:PNHG:20141203-2,14:19:15.700][CommandRepository] >>>>> CHECKING META INTEGRITY >>>>>
+^[1:PNHG:20141203-2,14:19:15.705][System] [META:EXCEL] Loading.. [SysCommandMeta.xls] (23)
+^[1:PNHG:20141203-2,14:19:15.715][System] [META:EXCEL] Loading.. [CommandMeta.xls] (0)
+^[1:PNHG:20141203-2,14:19:15.720][System] [META:EXCEL] Loading.. [EDU-01. CaseStudy.xls] (31)
+^[1:PNHG:20141203-2,14:19:15.725][System] [META:EXCEL] Loading.. [EDU-02. PracticeStudy.xls] (16)
+^[1:PNHG:20141203-2,14:19:15.743][System] [META:EXCEL] Loading.. [EX-01. BasicSample.xls] (39)
+^[1:PNHG:20141203-2,14:19:15.750][System] [META:EXCEL] Loading.. [EX-10. RIA_WISE.xls] (29)
+^[1:PNHG:20141203-2,14:19:15.761][System] [META:EXCEL] Loading.. [EX-21. SAP_Sample.xls] (2)
+^[1:PNHG:20141203-2,14:19:15.765][System] [META:EXCEL] Loading.. [SSO-01. Cert_Service.xls] (4)
+^[1:PNHG:20141203-2,14:19:15.767][System] [META:EXCEL] Loading.. [SYS-00. 공통.xls] (2)
+^[1:PNHG:20141203-2,14:19:15.767][CommandRepository] *RELOADED*
+^[1:PNHG:20141203-2,14:19:15.767][FMB-CP] 커맨드 로딩 완료 : [ADM000.A01]
+^[1:PNHG:20141203-2,14:19:15.767][WebFrameManager] ■■■ [ADM000.A01] FMB - #1[CP] : 처리 종료 (67 msec.)
+^[1:PNHG:20141203-2,14:19:15.793][WebFrameManager] ■■■ [ADM000.A01] FMB - #2[SP] : 처리 시작
+^[1:PNHG:20141203-2,14:19:15.794][FMB-SP] SESSION-ID [aaaYalrAO_zZtcdKl8eOu]
+^[1:PNHG:20141203-2,14:19:15.794][FMB-SP] 세션확인 성공 : [UserId:*Unknown*, Login:false]
+^[1:PNHG:20141203-2,14:19:15.794][WebFrameManager] ■■■ [ADM000.A01] FMB - #2[SP] : 처리 종료 (1 msec.)
+^[1:PNHG:20141203-2,14:19:15.794][WebFrameManager] ■■■ [ADM000.A01] FMB - #3[IP] : 처리 시작
+^[1:PNHG:20141203-2,14:19:15.799][CommonCacheManager] CACHE 등록 [JSP_CHK_ADM]
+^[1:PNHG:20141203-2,14:19:15.818][FMB-IP] 입력데이타 파싱 [WEB-CHK-ADM]
+^[1:PNHG:20141203-2,14:19:15.818][IPW002CC] *ADMIN ACCESS 성공* [NO_CHECK]
+^[1:PNHG:20141203-2,14:19:15.818][WebFrameManager] ■■■ [ADM000.A01] FMB - #3[IP] : 처리 종료 (24 msec.)
+^[1:PNHG:20141203-2,14:19:15.818][WebFrameManager] ■■■ [ADM000.A01] FMB - #4[TM] : 처리 시작
+^[1:PNHG:20141203-2,14:19:15.818][FMB-TM] 
+□□□□□ CauseDTO □□□□□
+<Command:ADM000.A01><Redirect:><WEB-CHK-ADM, JSP, /base/fw_main.jsp>
+□□□ CommonDTO □□□
+▶ System 변수 내역:
+[MTO Contents (R) :<Referer:http://localhost/console.cmd><RequestURI:/base/ADM000.A01.cmd><RequestURL:http://localhost/base/ADM000.A01.cmd><ServerName:localhost>]
+▶ Master 변수 내역:
+[MTO Contents (R) :]
+▶ MTO 데이타 내역:
+▶ ATO 데이타 내역:
+▶ LTO 데이타 내역:
+^[1:PNHG:20141203-2,14:19:15.847][FMB-TM] DummyService 실행 [Redirect형 업무]
+^[1:PNHG:20141203-2,14:19:15.847][ServiceCache] *NEW* [com.cni.fw.arch.smb.ac.DummyService]
+^[1:PNHG:20141203-2,14:19:15.847][WebFrameManager] ■■■ [ADM000.A01] FMB - #4[TM] : 처리 종료 (29 msec.)
+^[1:PNHG:20141203-2,14:19:15.847][WebFrameManager] ■■■ [ADM000.A01] FMB - #5[SM] : 처리 시작
+^[1:PNHG:20141203-2,14:19:15.847][FMB-SM] 세션 확인 [UserId:*Unknown*, IP:127.0.0.1, Login:false]
+^[1:PNHG:20141203-2,14:19:15.847][WebFrameManager] ■■■ [ADM000.A01] FMB - #5[SM] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-2,14:19:15.941][WebFrameManager] ■■■ [ADM000.A01] FMB - #6[OP] : 처리 시작
+^[1:PNHG:20141203-2,14:19:15.942][FMB-OP] 정상출력처리 [JSP]
+^[1:PNHG:20141203-2,14:19:15.942][FMB-OP] 출력데이타 규모 : 
+□□□ EffectDTO □□□
+▶ Model  사이즈 : 0
+□□□ CommonDTO □□□
+▶ System : 0
+▶ Master : 0
+▶ MTO Set : 0 []
+▶ ATO Set : 0 []
+▶ LTO Set : 0 []
+▶ RTO Set : 0 []
+^[1:PNHG:20141203-2,14:19:15.942][WebFrameManager] ■■■ [ADM000.A01] FMB - #6[OP] : 처리 종료 (1 msec.)
+^[1:PNHG:20141203-2,14:19:15.942][WebFrameManager] ■■■ [ADM000.A01] FMB - #7[PP] : 처리 시작
+^[1:PNHG:20141203-2,14:19:15.992][FMB-PP] 페이지 포워드 PATH 경로 : [/base/fw_main.jsp]
+^[1:PNHG:20141203-2,14:19:16.077][WebFrameManager] ■■■ [ADM000.A01] FMB - #7[PP] : 처리 종료 (135 msec.)
+^[1:PNHG:20141203-2,14:19:16.078][WebFrameManager] ■■■■■■ FMB 서비스 처리를 종료합니다. (총 수행시간 : 379 msec.)
+^[1:PNHG:20141203-3,14:19:16.181][WebFrameManager] 
+^[1:PNHG:20141203-3,14:19:16.181][WebFrameManager] ■■■■■■ FMB 서비스 처리를 시작합니다. ■■■■■■■■■■■■■■■■■■
+^[1:PNHG:20141203-3,14:19:16.181][Engine] [CustomClassLoader] *RELOADED*
+^[1:PNHG:20141203-3,14:19:16.181][WebFrameManager] ■■■ [*UNKNOWN*] FMB - #1[CP] : 처리 시작
+^[1:PNHG:20141203-3,14:19:16.181][FMB-CP] 요청된 커맨드 정보 : [ADM000.A02]
+^[1:PNHG:20141203-3,14:19:16.181][CommandRepository] >>>>> CHECKING META INTEGRITY >>>>>
+^[1:PNHG:20141203-3,14:19:16.184][System] [META:EXCEL] Loading.. [SysCommandMeta.xls] (23)
+^[1:PNHG:20141203-3,14:19:16.196][System] [META:EXCEL] Loading.. [CommandMeta.xls] (0)
+^[1:PNHG:20141203-3,14:19:16.201][System] [META:EXCEL] Loading.. [EDU-01. CaseStudy.xls] (31)
+^[1:PNHG:20141203-3,14:19:16.204][System] [META:EXCEL] Loading.. [EDU-02. PracticeStudy.xls] (16)
+^[1:PNHG:20141203-3,14:19:16.209][System] [META:EXCEL] Loading.. [EX-01. BasicSample.xls] (39)
+^[1:PNHG:20141203-3,14:19:16.212][System] [META:EXCEL] Loading.. [EX-10. RIA_WISE.xls] (29)
+^[1:PNHG:20141203-3,14:19:16.215][System] [META:EXCEL] Loading.. [EX-21. SAP_Sample.xls] (2)
+^[1:PNHG:20141203-3,14:19:16.263][System] [META:EXCEL] Loading.. [SSO-01. Cert_Service.xls] (4)
+^[1:PNHG:20141203-3,14:19:16.265][System] [META:EXCEL] Loading.. [SYS-00. 공통.xls] (2)
+^[1:PNHG:20141203-3,14:19:16.265][CommandRepository] *RELOADED*
+^[1:PNHG:20141203-3,14:19:16.265][FMB-CP] 커맨드 로딩 완료 : [ADM000.A02]
+^[1:PNHG:20141203-3,14:19:16.265][WebFrameManager] ■■■ [ADM000.A02] FMB - #1[CP] : 처리 종료 (84 msec.)
+^[1:PNHG:20141203-3,14:19:16.265][WebFrameManager] ■■■ [ADM000.A02] FMB - #2[SP] : 처리 시작
+^[1:PNHG:20141203-3,14:19:16.297][FMB-SP] SESSION-ID [aaaYalrAO_zZtcdKl8eOu]
+^[1:PNHG:20141203-3,14:19:16.297][FMB-SP] 세션확인 성공 : [UserId:*Unknown*, Login:false]
+^[1:PNHG:20141203-3,14:19:16.298][WebFrameManager] ■■■ [ADM000.A02] FMB - #2[SP] : 처리 종료 (33 msec.)
+^[1:PNHG:20141203-3,14:19:16.298][WebFrameManager] ■■■ [ADM000.A02] FMB - #3[IP] : 처리 시작
+^[1:PNHG:20141203-3,14:19:16.298][FMB-IP] 입력데이타 파싱 [WEB-CHK-ADM]
+^[1:PNHG:20141203-3,14:19:16.298][IPW002CC] *ADMIN ACCESS 성공* [NO_CHECK]
+^[1:PNHG:20141203-3,14:19:16.334][WebFrameManager] ■■■ [ADM000.A02] FMB - #3[IP] : 처리 종료 (36 msec.)
+^[1:PNHG:20141203-3,14:19:16.334][WebFrameManager] ■■■ [ADM000.A02] FMB - #4[TM] : 처리 시작
+^[1:PNHG:20141203-3,14:19:16.335][FMB-TM] 
+□□□□□ CauseDTO □□□□□
+<Command:ADM000.A02><Redirect:><WEB-CHK-ADM, JSP, /base/fw_top.jsp>
+□□□ CommonDTO □□□
+▶ System 변수 내역:
+[MTO Contents (R) :<Referer:http://localhost/base/ADM000.A01.cmd><RequestURI:/base/ADM000.A02.cmd><RequestURL:http://localhost/base/ADM000.A02.cmd><ServerName:localhost>]
+▶ Master 변수 내역:
+[MTO Contents (R) :]
+▶ MTO 데이타 내역:
+▶ ATO 데이타 내역:
+▶ LTO 데이타 내역:
+^[1:PNHG:20141203-3,14:19:16.378][FMB-TM] DummyService 실행 [Redirect형 업무]
+^[1:PNHG:20141203-3,14:19:16.378][ServiceCache] *NEW* [com.cni.fw.arch.smb.ac.DummyService]
+^[1:PNHG:20141203-3,14:19:16.379][WebFrameManager] ■■■ [ADM000.A02] FMB - #4[TM] : 처리 종료 (45 msec.)
+^[1:PNHG:20141203-3,14:19:16.379][WebFrameManager] ■■■ [ADM000.A02] FMB - #5[SM] : 처리 시작
+^[1:PNHG:20141203-3,14:19:16.379][FMB-SM] 세션 확인 [UserId:*Unknown*, IP:127.0.0.1, Login:false]
+^[1:PNHG:20141203-3,14:19:16.379][WebFrameManager] ■■■ [ADM000.A02] FMB - #5[SM] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-3,14:19:16.476][WebFrameManager] ■■■ [ADM000.A02] FMB - #6[OP] : 처리 시작
+^[1:PNHG:20141203-3,14:19:16.476][FMB-OP] 정상출력처리 [JSP]
+^[1:PNHG:20141203-3,14:19:16.477][FMB-OP] 출력데이타 규모 : 
+□□□ EffectDTO □□□
+▶ Model  사이즈 : 0
+□□□ CommonDTO □□□
+▶ System : 0
+▶ Master : 0
+▶ MTO Set : 0 []
+▶ ATO Set : 0 []
+▶ LTO Set : 0 []
+▶ RTO Set : 0 []
+^[1:PNHG:20141203-3,14:19:16.477][WebFrameManager] ■■■ [ADM000.A02] FMB - #6[OP] : 처리 종료 (1 msec.)
+^[1:PNHG:20141203-3,14:19:16.477][WebFrameManager] ■■■ [ADM000.A02] FMB - #7[PP] : 처리 시작
+^[1:PNHG:20141203-3,14:19:16.536][FMB-PP] 페이지 포워드 PATH 경로 : [/base/fw_top.jsp]
+^[1:PNHG:20141203-5,14:19:16.499][WebFrameManager] 
+^[1:PNHG:20141203-5,14:19:16.538][WebFrameManager] ■■■■■■ FMB 서비스 처리를 시작합니다. ■■■■■■■■■■■■■■■■■■
+^[1:PNHG:20141203-5,14:19:16.539][Engine] [CustomClassLoader] *RELOADED*
+^[1:PNHG:20141203-5,14:19:16.539][WebFrameManager] ■■■ [*UNKNOWN*] FMB - #1[CP] : 처리 시작
+^[1:PNHG:20141203-4,14:19:16.497][WebFrameManager] 
+^[1:PNHG:20141203-4,14:19:16.539][WebFrameManager] ■■■■■■ FMB 서비스 처리를 시작합니다. ■■■■■■■■■■■■■■■■■■
+^[1:PNHG:20141203-4,14:19:16.644][Engine] [CustomClassLoader] *RELOADED*
+^[1:PNHG:20141203-4,14:19:16.645][WebFrameManager] ■■■ [*UNKNOWN*] FMB - #1[CP] : 처리 시작
+^[1:PNHG:20141203-5,14:19:16.570][FMB-CP] 요청된 커맨드 정보 : [ADM000.A03]
+^[1:PNHG:20141203-5,14:19:16.645][FMB-CP] 커맨드 로딩 완료 : [ADM000.A03]
+^[1:PNHG:20141203-4,14:19:16.645][FMB-CP] 요청된 커맨드 정보 : [AC_LIST_GRP]
+^[1:PNHG:20141203-4,14:19:16.645][FMB-CP] 커맨드 로딩 완료 : [AC_LIST_GRP]
+^[1:PNHG:20141203-5,14:19:16.645][WebFrameManager] ■■■ [ADM000.A03] FMB - #1[CP] : 처리 종료 (106 msec.)
+^[1:PNHG:20141203-5,14:19:16.718][WebFrameManager] ■■■ [ADM000.A03] FMB - #2[SP] : 처리 시작
+^[1:PNHG:20141203-5,14:19:16.718][FMB-SP] SESSION-ID [aaaYalrAO_zZtcdKl8eOu]
+^[1:PNHG:20141203-3,14:19:16.568][WebFrameManager] ■■■ [ADM000.A02] FMB - #7[PP] : 처리 종료 (91 msec.)
+^[1:PNHG:20141203-5,14:19:16.719][FMB-SP] 세션확인 성공 : [UserId:*Unknown*, Login:false]
+^[1:PNHG:20141203-5,14:19:16.719][WebFrameManager] ■■■ [ADM000.A03] FMB - #2[SP] : 처리 종료 (1 msec.)
+^[1:PNHG:20141203-5,14:19:16.719][WebFrameManager] ■■■ [ADM000.A03] FMB - #3[IP] : 처리 시작
+^[1:PNHG:20141203-4,14:19:16.645][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #1[CP] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-5,14:19:16.789][FMB-IP] 입력데이타 파싱 [WEB-CHK-ADM]
+^[1:PNHG:20141203-5,14:19:16.790][IPW002CC] *ADMIN ACCESS 성공* [NO_CHECK]
+^[1:PNHG:20141203-5,14:19:16.790][WebFrameManager] ■■■ [ADM000.A03] FMB - #3[IP] : 처리 종료 (71 msec.)
+^[1:PNHG:20141203-5,14:19:16.791][WebFrameManager] ■■■ [ADM000.A03] FMB - #4[TM] : 처리 시작
+^[1:PNHG:20141203-5,14:19:16.791][FMB-TM] 
+□□□□□ CauseDTO □□□□□
+<Command:ADM000.A03><Redirect:><WEB-CHK-ADM, JSP, /base/fw_right.jsp>
+□□□ CommonDTO □□□
+▶ System 변수 내역:
+[MTO Contents (R) :<Referer:http://localhost/base/ADM000.A01.cmd><RequestURI:/base/ADM000.A03.cmd><RequestURL:http://localhost/base/ADM000.A03.cmd><ServerName:localhost>]
+▶ Master 변수 내역:
+[MTO Contents (R) :]
+▶ MTO 데이타 내역:
+▶ ATO 데이타 내역:
+▶ LTO 데이타 내역:
+^[1:PNHG:20141203-5,14:19:16.833][FMB-TM] DummyService 실행 [Redirect형 업무]
+^[1:PNHG:20141203-3,14:19:16.719][WebFrameManager] ■■■■■■ FMB 서비스 처리를 종료합니다. (총 수행시간 : 538 msec.)
+^[1:PNHG:20141203-5,14:19:16.833][ServiceCache] *NEW* [com.cni.fw.arch.smb.ac.DummyService]
+^[1:PNHG:20141203-4,14:19:16.794][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #2[SP] : 처리 시작
+^[1:PNHG:20141203-5,14:19:16.835][WebFrameManager] ■■■ [ADM000.A03] FMB - #4[TM] : 처리 종료 (44 msec.)
+^[1:PNHG:20141203-5,14:19:16.836][WebFrameManager] ■■■ [ADM000.A03] FMB - #5[SM] : 처리 시작
+^[1:PNHG:20141203-4,14:19:16.836][FMB-SP] SESSION-ID [aaaYalrAO_zZtcdKl8eOu]
+^[1:PNHG:20141203-4,14:19:16.950][FMB-SP] 세션확인 성공 : [UserId:*Unknown*, Login:false]
+^[1:PNHG:20141203-4,14:19:16.951][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #2[SP] : 처리 종료 (161 msec.)
+^[1:PNHG:20141203-5,14:19:16.951][FMB-SM] 세션 확인 [UserId:*Unknown*, IP:127.0.0.1, Login:false]
+^[1:PNHG:20141203-5,14:19:16.959][WebFrameManager] ■■■ [ADM000.A03] FMB - #5[SM] : 처리 종료 (123 msec.)
+^[1:PNHG:20141203-5,14:19:16.959][WebFrameManager] ■■■ [ADM000.A03] FMB - #6[OP] : 처리 시작
+^[1:PNHG:20141203-4,14:19:16.959][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #3[IP] : 처리 시작
+^[1:PNHG:20141203-5,14:19:16.960][FMB-OP] 정상출력처리 [JSP]
+^[1:PNHG:20141203-5,14:19:16.961][FMB-OP] 출력데이타 규모 : 
+□□□ EffectDTO □□□
+▶ Model  사이즈 : 0
+□□□ CommonDTO □□□
+▶ System : 0
+▶ Master : 0
+▶ MTO Set : 0 []
+▶ ATO Set : 0 []
+▶ LTO Set : 0 []
+▶ RTO Set : 0 []
+^[1:PNHG:20141203-5,14:19:16.961][WebFrameManager] ■■■ [ADM000.A03] FMB - #6[OP] : 처리 종료 (2 msec.)
+^[1:PNHG:20141203-5,14:19:16.961][WebFrameManager] ■■■ [ADM000.A03] FMB - #7[PP] : 처리 시작
+^[1:PNHG:20141203-4,14:19:16.961][FMB-IP] 입력데이타 파싱 [WEB-CHK-ADM]
+^[1:PNHG:20141203-4,14:19:16.984][IPW002CC] *ADMIN ACCESS 성공* [NO_CHECK]
+^[1:PNHG:20141203-4,14:19:16.985][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #3[IP] : 처리 종료 (26 msec.)
+^[1:PNHG:20141203-4,14:19:16.985][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #4[TM] : 처리 시작
+^[1:PNHG:20141203-5,14:19:16.985][FMB-PP] 페이지 포워드 PATH 경로 : [/base/fw_right.jsp]
+^[1:PNHG:20141203-5,14:19:17.063][WebFrameManager] ■■■ [ADM000.A03] FMB - #7[PP] : 처리 종료 (102 msec.)
+^[1:PNHG:20141203-5,14:19:17.063][WebFrameManager] ■■■■■■ FMB 서비스 처리를 종료합니다. (총 수행시간 : 565 msec.)
+^[1:PNHG:20141203-4,14:19:17.063][FMB-TM] 
+□□□□□ CauseDTO □□□□□
+<Command:AC_LIST_GRP><NA:com.cni.fw.made.web.ac.admin.ACGrpListerAC><WEB-CHK-ADM, JSP, /base/fw_left.jsp>
+□□□ CommonDTO □□□
+▶ System 변수 내역:
+[MTO Contents (R) :<Referer:http://localhost/base/ADM000.A01.cmd><RequestURI:/base/AC_LIST_GRP.cmd><RequestURL:http://localhost/base/AC_LIST_GRP.cmd><ServerName:localhost>]
+▶ Master 변수 내역:
+[MTO Contents (R) :]
+▶ MTO 데이타 내역:
+▶ ATO 데이타 내역:
+▶ LTO 데이타 내역:
+^[1:PNHG:20141203-4,14:19:17.067][ServiceCache] *NEW* [com.cni.fw.made.web.ac.admin.ACGrpListerAC]
+^[1:PNHG:20141203-4,14:19:17.072][ACGrpListerAC] ▶▶▶▶▶▶ LOAD AC [ACGrpListerAC]
+^[1:PNHG:20141203-4,14:19:17.082][System] [META:EXCEL] Loading.. [CommandMeta.xls] (0)
+^[1:PNHG:20141203-4,14:19:17.085][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #4[TM] : 처리 종료 (100 msec.)
+^[1:PNHG:20141203-4,14:19:17.086][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #5[SM] : 처리 시작
+^[1:PNHG:20141203-4,14:19:17.086][FMB-SM] 세션 확인 [UserId:*Unknown*, IP:127.0.0.1, Login:false]
+^[1:PNHG:20141203-4,14:19:17.087][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #5[SM] : 처리 종료 (1 msec.)
+^[1:PNHG:20141203-4,14:19:17.088][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #6[OP] : 처리 시작
+^[1:PNHG:20141203-4,14:19:17.088][FMB-OP] 정상출력처리 [JSP]
+^[1:PNHG:20141203-4,14:19:17.088][FMB-OP] 출력데이타 규모 : 
+□□□ EffectDTO □□□
+▶ Model  사이즈 : 0
+□□□ CommonDTO □□□
+▶ System : 0
+▶ Master : 3
+▶ MTO Set : 0 []
+▶ ATO Set : 1 [metaList:10, ]
+▶ LTO Set : 0 []
+▶ RTO Set : 0 []
+^[1:PNHG:20141203-4,14:19:17.088][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #6[OP] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-4,14:19:17.105][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #7[PP] : 처리 시작
+^[1:PNHG:20141203-4,14:19:17.105][FMB-PP] 페이지 포워드 PATH 경로 : [/base/fw_left.jsp]
+^[1:PNHG:20141203-4,14:19:17.135][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #7[PP] : 처리 종료 (30 msec.)
+^[1:PNHG:20141203-4,14:19:17.135][WebFrameManager] ■■■■■■ FMB 서비스 처리를 종료합니다. (총 수행시간 : 639 msec.)
+^[1:PNHG:20141203-6,14:19:22.391][WebFrameManager] 
+^[1:PNHG:20141203-6,14:19:22.391][WebFrameManager] ■■■■■■ FMB 서비스 처리를 시작합니다. ■■■■■■■■■■■■■■■■■■
+^[1:PNHG:20141203-6,14:19:22.391][Engine] [CustomClassLoader] *RELOADED*
+^[1:PNHG:20141203-6,14:19:22.391][WebFrameManager] ■■■ [*UNKNOWN*] FMB - #1[CP] : 처리 시작
+^[1:PNHG:20141203-6,14:19:22.391][FMB-CP] 요청된 커맨드 정보 : [AC_LIST_GRP]
+^[1:PNHG:20141203-6,14:19:22.391][CommandRepository] >>>>> CHECKING META INTEGRITY >>>>>
+^[1:PNHG:20141203-6,14:19:22.391][System] [META:EXCEL] Loading.. [SysCommandMeta.xls] (23)
+^[1:PNHG:20141203-6,14:19:22.391][System] [META:EXCEL] Loading.. [CommandMeta.xls] (0)
+^[1:PNHG:20141203-6,14:19:22.391][System] [META:EXCEL] Loading.. [EDU-01. CaseStudy.xls] (31)
+^[1:PNHG:20141203-6,14:19:22.406][System] [META:EXCEL] Loading.. [EDU-02. PracticeStudy.xls] (16)
+^[1:PNHG:20141203-6,14:19:22.410][System] [META:EXCEL] Loading.. [EX-01. BasicSample.xls] (39)
+^[1:PNHG:20141203-6,14:19:22.413][System] [META:EXCEL] Loading.. [EX-10. RIA_WISE.xls] (29)
+^[1:PNHG:20141203-6,14:19:22.424][System] [META:EXCEL] Loading.. [EX-21. SAP_Sample.xls] (2)
+^[1:PNHG:20141203-6,14:19:22.427][System] [META:EXCEL] Loading.. [SSO-01. Cert_Service.xls] (4)
+^[1:PNHG:20141203-6,14:19:22.429][System] [META:EXCEL] Loading.. [SYS-00. 공통.xls] (2)
+^[1:PNHG:20141203-6,14:19:22.429][CommandRepository] *RELOADED*
+^[1:PNHG:20141203-6,14:19:22.429][FMB-CP] 커맨드 로딩 완료 : [AC_LIST_GRP]
+^[1:PNHG:20141203-6,14:19:22.429][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #1[CP] : 처리 종료 (38 msec.)
+^[1:PNHG:20141203-6,14:19:22.434][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #2[SP] : 처리 시작
+^[1:PNHG:20141203-6,14:19:22.435][FMB-SP] SESSION-ID [aaaYalrAO_zZtcdKl8eOu]
+^[1:PNHG:20141203-6,14:19:22.435][FMB-SP] 세션확인 성공 : [UserId:*Unknown*, Login:false]
+^[1:PNHG:20141203-6,14:19:22.435][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #2[SP] : 처리 종료 (1 msec.)
+^[1:PNHG:20141203-6,14:19:22.435][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #3[IP] : 처리 시작
+^[1:PNHG:20141203-6,14:19:22.435][FMB-IP] 입력데이타 파싱 [WEB-CHK-ADM]
+^[1:PNHG:20141203-6,14:19:22.440][IPW002CC] *ADMIN ACCESS 성공* [NO_CHECK]
+^[1:PNHG:20141203-6,14:19:22.440][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #3[IP] : 처리 종료 (5 msec.)
+^[1:PNHG:20141203-6,14:19:22.441][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #4[TM] : 처리 시작
+^[1:PNHG:20141203-6,14:19:22.441][FMB-TM] 
+□□□□□ CauseDTO □□□□□
+<Command:AC_LIST_GRP><NA:com.cni.fw.made.web.ac.admin.ACGrpListerAC><WEB-CHK-ADM, JSP, /base/fw_left.jsp>
+□□□ CommonDTO □□□
+▶ System 변수 내역:
+[MTO Contents (R) :<Referer:http://localhost/base/AC_LIST_GRP.cmd><RequestURI:/AC_LIST_GRP.cmd><RequestURL:http://localhost/AC_LIST_GRP.cmd><ServerName:localhost>]
+▶ Master 변수 내역:
+[MTO Contents (R) :<option:><searchGrp:EDU-01. CaseStudy.xls><searchKey:>]
+▶ MTO 데이타 내역:
+▶ ATO 데이타 내역:
+[1] [option] [ATO Contents:<>]
+[2] [searchGrp] [ATO Contents:<EDU-01. CaseStudy.xls>]
+[3] [searchKey] [ATO Contents:<>]
+▶ LTO 데이타 내역:
+^[1:PNHG:20141203-6,14:19:22.453][ServiceCache] *NEW* [com.cni.fw.made.web.ac.admin.ACGrpListerAC]
+^[1:PNHG:20141203-6,14:19:22.453][ACGrpListerAC] ▶▶▶▶▶▶ LOAD AC [ACGrpListerAC]
+^[1:PNHG:20141203-6,14:19:22.472][System] [META:EXCEL] Loading.. [EDU-01. CaseStudy.xls] (31)
+^[1:PNHG:20141203-6,14:19:22.477][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #4[TM] : 처리 종료 (36 msec.)
+^[1:PNHG:20141203-6,14:19:22.478][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #5[SM] : 처리 시작
+^[1:PNHG:20141203-6,14:19:22.478][FMB-SM] 세션 확인 [UserId:*Unknown*, IP:127.0.0.1, Login:false]
+^[1:PNHG:20141203-6,14:19:22.489][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #5[SM] : 처리 종료 (11 msec.)
+^[1:PNHG:20141203-6,14:19:22.489][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #6[OP] : 처리 시작
+^[1:PNHG:20141203-6,14:19:22.490][FMB-OP] 정상출력처리 [JSP]
+^[1:PNHG:20141203-6,14:19:22.490][FMB-OP] 출력데이타 규모 : 
+□□□ EffectDTO □□□
+▶ Model  사이즈 : 0
+□□□ CommonDTO □□□
+▶ System : 0
+▶ Master : 3
+▶ MTO Set : 0 []
+▶ ATO Set : 1 [metaList:10, ]
+▶ LTO Set : 9 [CASE000:1, CASE001:5, CASE002:6, CASE003:4, CASE004:4, CASE005:3, CASE006:3, CASE007:3, CASE008:2, ]
+▶ RTO Set : 0 []
+^[1:PNHG:20141203-6,14:19:22.499][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #6[OP] : 처리 종료 (10 msec.)
+^[1:PNHG:20141203-6,14:19:22.499][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #7[PP] : 처리 시작
+^[1:PNHG:20141203-6,14:19:22.499][FMB-PP] 페이지 포워드 PATH 경로 : [/base/fw_left.jsp]
+^[1:PNHG:20141203-6,14:19:22.515][WebFrameManager] ■■■ [AC_LIST_GRP] FMB - #7[PP] : 처리 종료 (16 msec.)
+^[1:PNHG:20141203-6,14:19:22.515][WebFrameManager] ■■■■■■ FMB 서비스 처리를 종료합니다. (총 수행시간 : 124 msec.)
+^[1:PNHG:20141203-7,14:20:04.590][WebFrameManager] 
+^[1:PNHG:20141203-7,14:20:04.590][WebFrameManager] ■■■■■■ FMB 서비스 처리를 시작합니다. ■■■■■■■■■■■■■■■■■■
+^[1:PNHG:20141203-7,14:20:04.591][Engine] [CustomClassLoader] *RELOADED*
+^[1:PNHG:20141203-7,14:20:04.591][WebFrameManager] ■■■ [*UNKNOWN*] FMB - #1[CP] : 처리 시작
+^[1:PNHG:20141203-7,14:20:04.591][FMB-CP] 요청된 커맨드 정보 : [CASE001.S02]
+^[1:PNHG:20141203-7,14:20:04.591][CommandRepository] >>>>> CHECKING META INTEGRITY >>>>>
+^[1:PNHG:20141203-7,14:20:04.593][System] [META:EXCEL] Loading.. [SysCommandMeta.xls] (23)
+^[1:PNHG:20141203-7,14:20:04.599][System] [META:EXCEL] Loading.. [CommandMeta.xls] (0)
+^[1:PNHG:20141203-7,14:20:04.607][System] [META:EXCEL] Loading.. [EDU-01. CaseStudy.xls] (31)
+^[1:PNHG:20141203-7,14:20:04.612][System] [META:EXCEL] Loading.. [EDU-02. PracticeStudy.xls] (16)
+^[1:PNHG:20141203-7,14:20:04.618][System] [META:EXCEL] Loading.. [EX-01. BasicSample.xls] (39)
+^[1:PNHG:20141203-7,14:20:04.623][System] [META:EXCEL] Loading.. [EX-10. RIA_WISE.xls] (29)
+^[1:PNHG:20141203-7,14:20:04.627][System] [META:EXCEL] Loading.. [EX-21. SAP_Sample.xls] (2)
+^[1:PNHG:20141203-7,14:20:04.631][System] [META:EXCEL] Loading.. [SSO-01. Cert_Service.xls] (4)
+^[1:PNHG:20141203-7,14:20:04.633][System] [META:EXCEL] Loading.. [SYS-00. 공통.xls] (2)
+^[1:PNHG:20141203-7,14:20:04.633][CommandRepository] *RELOADED*
+^[1:PNHG:20141203-7,14:20:04.633][FMB-CP] 커맨드 로딩 완료 : [CASE001.S02]
+^[1:PNHG:20141203-7,14:20:04.633][WebFrameManager] ■■■ [CASE001.S02] FMB - #1[CP] : 처리 종료 (42 msec.)
+^[1:PNHG:20141203-7,14:20:04.633][WebFrameManager] ■■■ [CASE001.S02] FMB - #2[SP] : 처리 시작
+^[1:PNHG:20141203-7,14:20:04.633][FMB-SP] SESSION-ID [aaaYalrAO_zZtcdKl8eOu]
+^[1:PNHG:20141203-7,14:20:04.633][FMB-SP] 세션확인 성공 : [UserId:*Unknown*, Login:false]
+^[1:PNHG:20141203-7,14:20:04.634][WebFrameManager] ■■■ [CASE001.S02] FMB - #2[SP] : 처리 종료 (1 msec.)
+^[1:PNHG:20141203-7,14:20:04.634][WebFrameManager] ■■■ [CASE001.S02] FMB - #3[IP] : 처리 시작
+^[1:PNHG:20141203-7,14:20:04.634][FMB-IP] 입력데이타 파싱 [WEB]
+^[1:PNHG:20141203-7,14:20:04.635][WebFrameManager] ■■■ [CASE001.S02] FMB - #3[IP] : 처리 종료 (1 msec.)
+^[1:PNHG:20141203-7,14:20:04.635][WebFrameManager] ■■■ [CASE001.S02] FMB - #4[TM] : 처리 시작
+^[1:PNHG:20141203-7,14:20:04.635][FMB-TM] 
+□□□□□ CauseDTO □□□□□
+<Command:CASE001.S02><Tx:edu.case001.CASE001S01AC><WEB, JSP, /demo/edu/case001s02.jsp>
+□□□ CommonDTO □□□
+▶ System 변수 내역:
+[MTO Contents (R) :<Referer:http://localhost/AC_LIST_GRP.cmd><RequestURI:/demo/edu/CASE001.S02.cmd><RequestURL:http://localhost/demo/edu/CASE001.S02.cmd><ServerName:localhost>]
+▶ Master 변수 내역:
+[MTO Contents (R) :]
+▶ MTO 데이타 내역:
+▶ ATO 데이타 내역:
+▶ LTO 데이타 내역:
+^[1:PNHG:20141203-7,14:20:04.638][ServiceCache] *NEW* [edu.case001.CASE001S01AC]
+^[1:PNHG:20141203-7,14:20:04.697][CASE001S01AC] ▶▶▶▶▶▶ LOAD AC [CASE001S01AC]
+^[1:PNHG:20141203-7,14:20:04.698][WebFrameManager] ■■■ [CASE001.S02] FMB - #4[TM] : 처리 종료 (63 msec.)
+^[1:PNHG:20141203-7,14:20:04.698][WebFrameManager] ■■■ [CASE001.S02] FMB - #5[SM] : 처리 시작
+^[1:PNHG:20141203-7,14:20:04.698][FMB-SM] 세션 확인 [UserId:*Unknown*, IP:127.0.0.1, Login:false]
+^[1:PNHG:20141203-7,14:20:04.698][WebFrameManager] ■■■ [CASE001.S02] FMB - #5[SM] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-7,14:20:04.698][WebFrameManager] ■■■ [CASE001.S02] FMB - #6[OP] : 처리 시작
+^[1:PNHG:20141203-7,14:20:04.698][FMB-OP] 정상출력처리 [JSP]
+^[1:PNHG:20141203-7,14:20:04.699][FMB-OP] 출력데이타 규모 : 
+□□□ EffectDTO □□□
+▶ Model  사이즈 : 0
+□□□ CommonDTO □□□
+▶ System : 0
+▶ Master : 4
+▶ MTO Set : 1 [corpInfo:2, ]
+▶ ATO Set : 1 [position:5, ]
+▶ LTO Set : 1 [teamList:2, ]
+▶ RTO Set : 0 []
+^[1:PNHG:20141203-7,14:20:04.699][WebFrameManager] ■■■ [CASE001.S02] FMB - #6[OP] : 처리 종료 (1 msec.)
+^[1:PNHG:20141203-7,14:20:04.699][WebFrameManager] ■■■ [CASE001.S02] FMB - #7[PP] : 처리 시작
+^[1:PNHG:20141203-7,14:20:04.699][FMB-PP] 페이지 포워드 PATH 경로 : [/demo/edu/case001s02.jsp]
+^[1:PNHG:20141203-7,14:20:05.916][WebFrameManager] ■■■ [CASE001.S02] FMB - #7[PP] : 처리 종료 (1217 msec.)
+^[1:PNHG:20141203-7,14:20:05.917][WebFrameManager] ■■■■■■ FMB 서비스 처리를 종료합니다. (총 수행시간 : 1327 msec.)
+^[1:PNHG:20141203-8,14:22:23.894][WebFrameManager] 
+^[1:PNHG:20141203-8,14:22:23.894][WebFrameManager] ■■■■■■ FMB 서비스 처리를 시작합니다. ■■■■■■■■■■■■■■■■■■
+^[1:PNHG:20141203-8,14:22:23.895][Engine] [CustomClassLoader] *RELOADED*
+^[1:PNHG:20141203-8,14:22:23.895][WebFrameManager] ■■■ [*UNKNOWN*] FMB - #1[CP] : 처리 시작
+^[1:PNHG:20141203-8,14:22:23.895][FMB-CP] 요청된 커맨드 정보 : [CASE001.S02]
+^[1:PNHG:20141203-8,14:22:23.895][CommandRepository] >>>>> CHECKING META INTEGRITY >>>>>
+^[1:PNHG:20141203-8,14:22:23.897][System] [META:EXCEL] Loading.. [SysCommandMeta.xls] (23)
+^[1:PNHG:20141203-8,14:22:23.900][System] [META:EXCEL] Loading.. [CommandMeta.xls] (0)
+^[1:PNHG:20141203-8,14:22:23.905][System] [META:EXCEL] Loading.. [EDU-01. CaseStudy.xls] (31)
+^[1:PNHG:20141203-8,14:22:23.909][System] [META:EXCEL] Loading.. [EDU-02. PracticeStudy.xls] (16)
+^[1:PNHG:20141203-8,14:22:23.913][System] [META:EXCEL] Loading.. [EX-01. BasicSample.xls] (39)
+^[1:PNHG:20141203-8,14:22:23.934][System] [META:EXCEL] Loading.. [EX-10. RIA_WISE.xls] (29)
+^[1:PNHG:20141203-8,14:22:23.937][System] [META:EXCEL] Loading.. [EX-21. SAP_Sample.xls] (2)
+^[1:PNHG:20141203-8,14:22:23.939][System] [META:EXCEL] Loading.. [SSO-01. Cert_Service.xls] (4)
+^[1:PNHG:20141203-8,14:22:23.941][System] [META:EXCEL] Loading.. [SYS-00. 공통.xls] (2)
+^[1:PNHG:20141203-8,14:22:23.941][CommandRepository] *RELOADED*
+^[1:PNHG:20141203-8,14:22:23.941][FMB-CP] 커맨드 로딩 완료 : [CASE001.S02]
+^[1:PNHG:20141203-8,14:22:23.942][WebFrameManager] ■■■ [CASE001.S02] FMB - #1[CP] : 처리 종료 (47 msec.)
+^[1:PNHG:20141203-8,14:22:23.942][WebFrameManager] ■■■ [CASE001.S02] FMB - #2[SP] : 처리 시작
+^[1:PNHG:20141203-8,14:22:23.942][FMB-SP] SESSION-ID [aaaYalrAO_zZtcdKl8eOu]
+^[1:PNHG:20141203-8,14:22:23.942][FMB-SP] 세션확인 성공 : [UserId:*Unknown*, Login:false]
+^[1:PNHG:20141203-8,14:22:23.944][WebFrameManager] ■■■ [CASE001.S02] FMB - #2[SP] : 처리 종료 (2 msec.)
+^[1:PNHG:20141203-8,14:22:23.944][WebFrameManager] ■■■ [CASE001.S02] FMB - #3[IP] : 처리 시작
+^[1:PNHG:20141203-8,14:22:23.944][FMB-IP] 입력데이타 파싱 [WEB]
+^[1:PNHG:20141203-8,14:22:23.944][WebFrameManager] ■■■ [CASE001.S02] FMB - #3[IP] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-8,14:22:23.945][WebFrameManager] ■■■ [CASE001.S02] FMB - #4[TM] : 처리 시작
+^[1:PNHG:20141203-8,14:22:23.945][FMB-TM] 
+□□□□□ CauseDTO □□□□□
+<Command:CASE001.S02><Tx:edu.case001.CASE001S01AC><WEB, JSP, /demo/edu/case001s02.jsp>
+□□□ CommonDTO □□□
+▶ System 변수 내역:
+[MTO Contents (R) :<Referer:null><RequestURI:/CASE001.S02.cmd><RequestURL:http://localhost/CASE001.S02.cmd><ServerName:localhost>]
+▶ Master 변수 내역:
+[MTO Contents (R) :]
+▶ MTO 데이타 내역:
+▶ ATO 데이타 내역:
+▶ LTO 데이타 내역:
+^[1:PNHG:20141203-8,14:22:23.949][ServiceCache] *NEW* [edu.case001.CASE001S01AC]
+^[1:PNHG:20141203-8,14:22:23.950][CASE001S01AC] ▶▶▶▶▶▶ LOAD AC [CASE001S01AC]
+^[1:PNHG:20141203-8,14:22:23.951][WebFrameManager] ■■■ [CASE001.S02] FMB - #4[TM] : 처리 종료 (6 msec.)
+^[1:PNHG:20141203-8,14:22:23.951][WebFrameManager] ■■■ [CASE001.S02] FMB - #5[SM] : 처리 시작
+^[1:PNHG:20141203-8,14:22:23.951][FMB-SM] 세션 확인 [UserId:*Unknown*, IP:127.0.0.1, Login:false]
+^[1:PNHG:20141203-8,14:22:23.951][WebFrameManager] ■■■ [CASE001.S02] FMB - #5[SM] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-8,14:22:23.969][WebFrameManager] ■■■ [CASE001.S02] FMB - #6[OP] : 처리 시작
+^[1:PNHG:20141203-8,14:22:23.969][FMB-OP] 정상출력처리 [JSP]
+^[1:PNHG:20141203-8,14:22:23.969][FMB-OP] 출력데이타 규모 : 
+□□□ EffectDTO □□□
+▶ Model  사이즈 : 0
+□□□ CommonDTO □□□
+▶ System : 0
+▶ Master : 4
+▶ MTO Set : 1 [corpInfo:2, ]
+▶ ATO Set : 1 [position:5, ]
+▶ LTO Set : 1 [teamList:2, ]
+▶ RTO Set : 0 []
+^[1:PNHG:20141203-8,14:22:23.969][WebFrameManager] ■■■ [CASE001.S02] FMB - #6[OP] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-8,14:22:23.977][WebFrameManager] ■■■ [CASE001.S02] FMB - #7[PP] : 처리 시작
+^[1:PNHG:20141203-8,14:22:23.977][FMB-PP] 페이지 포워드 PATH 경로 : [/demo/edu/case001s02.jsp]
+^[1:PNHG:20141203-8,14:22:23.978][WebFrameManager] ■■■ [CASE001.S02] FMB - #7[PP] : 처리 종료 (1 msec.)
+^[1:PNHG:20141203-8,14:22:23.978][WebFrameManager] ■■■■■■ FMB 서비스 처리를 종료합니다. (총 수행시간 : 84 msec.)
+^[1:PNHG:20141203-9,14:25:50.164][WebFrameManager] 
+^[1:PNHG:20141203-9,14:25:50.164][WebFrameManager] ■■■■■■ FMB 서비스 처리를 시작합니다. ■■■■■■■■■■■■■■■■■■
+^[1:PNHG:20141203-9,14:25:50.164][Engine] [CustomClassLoader] *RELOADED*
+^[1:PNHG:20141203-9,14:25:50.164][WebFrameManager] ■■■ [*UNKNOWN*] FMB - #1[CP] : 처리 시작
+^[1:PNHG:20141203-9,14:25:50.164][FMB-CP] 요청된 커맨드 정보 : [CASE001.S03]
+^[1:PNHG:20141203-9,14:25:50.164][CommandRepository] >>>>> CHECKING META INTEGRITY >>>>>
+^[1:PNHG:20141203-9,14:25:50.166][System] [META:EXCEL] Loading.. [SysCommandMeta.xls] (23)
+^[1:PNHG:20141203-9,14:25:50.169][System] [META:EXCEL] Loading.. [CommandMeta.xls] (0)
+^[1:PNHG:20141203-9,14:25:50.173][System] [META:EXCEL] Loading.. [EDU-01. CaseStudy.xls] (31)
+^[1:PNHG:20141203-9,14:25:50.176][System] [META:EXCEL] Loading.. [EDU-02. PracticeStudy.xls] (16)
+^[1:PNHG:20141203-9,14:25:50.180][System] [META:EXCEL] Loading.. [EX-01. BasicSample.xls] (39)
+^[1:PNHG:20141203-9,14:25:50.183][System] [META:EXCEL] Loading.. [EX-10. RIA_WISE.xls] (29)
+^[1:PNHG:20141203-9,14:25:50.186][System] [META:EXCEL] Loading.. [EX-21. SAP_Sample.xls] (2)
+^[1:PNHG:20141203-9,14:25:50.188][System] [META:EXCEL] Loading.. [SSO-01. Cert_Service.xls] (4)
+^[1:PNHG:20141203-9,14:25:50.190][System] [META:EXCEL] Loading.. [SYS-00. 공통.xls] (2)
+^[1:PNHG:20141203-9,14:25:50.190][CommandRepository] *RELOADED*
+^[1:PNHG:20141203-9,14:25:50.190][FMB-CP] 커맨드 로딩 완료 : [CASE001.S03]
+^[1:PNHG:20141203-9,14:25:50.190][WebFrameManager] ■■■ [CASE001.S03] FMB - #1[CP] : 처리 종료 (26 msec.)
+^[1:PNHG:20141203-9,14:25:50.190][WebFrameManager] ■■■ [CASE001.S03] FMB - #2[SP] : 처리 시작
+^[1:PNHG:20141203-9,14:25:50.190][FMB-SP] SESSION-ID [aaaYalrAO_zZtcdKl8eOu]
+^[1:PNHG:20141203-9,14:25:50.190][FMB-SP] 세션확인 성공 : [UserId:*Unknown*, Login:false]
+^[1:PNHG:20141203-9,14:25:50.190][WebFrameManager] ■■■ [CASE001.S03] FMB - #2[SP] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-9,14:25:50.190][WebFrameManager] ■■■ [CASE001.S03] FMB - #3[IP] : 처리 시작
+^[1:PNHG:20141203-9,14:25:50.190][FMB-IP] 입력데이타 파싱 [WEB]
+^[1:PNHG:20141203-9,14:25:50.193][WebFrameManager] ■■■ [CASE001.S03] FMB - #3[IP] : 처리 종료 (3 msec.)
+^[1:PNHG:20141203-9,14:25:50.193][WebFrameManager] ■■■ [CASE001.S03] FMB - #4[TM] : 처리 시작
+^[1:PNHG:20141203-9,14:25:50.193][FMB-TM] 
+□□□□□ CauseDTO □□□□□
+<Command:CASE001.S03><Tx:edu.case001.CASE001S03AC><WEB, JSP, /demo/edu/case001s03.jsp>
+□□□ CommonDTO □□□
+▶ System 변수 내역:
+[MTO Contents (R) :<Referer:http://localhost/AC_LIST_GRP.cmd><RequestURI:/demo/edu/CASE001.S03.cmd><RequestURL:http://localhost/demo/edu/CASE001.S03.cmd><ServerName:localhost>]
+▶ Master 변수 내역:
+[MTO Contents (R) :]
+▶ MTO 데이타 내역:
+▶ ATO 데이타 내역:
+▶ LTO 데이타 내역:
+^[1:PNHG:20141203-9,14:25:50.199][ServiceCache] *NEW* [edu.case001.CASE001S03AC]
+^[1:PNHG:20141203-9,14:25:50.228][CASE001S03AC] ▶▶▶▶▶▶ LOAD AC [CASE001S03AC]
+^[1:PNHG:20141203-9,14:25:50.617][CommonCacheManager] CACHE 등록 [CACHE_DB_CONF]
+^[1:PNHG:20141203-9,14:25:50.620][ConnectionManager] [데이타소스] 메인DB  [Oracle,java:comp/env/jdbc/oracle] 커낵션 획득
+^[1:PNHG:20141203-9,14:25:50.620][MasterTx] *Transaction BEGIN* [AUTO-COMMIT:false]
+^[1:PNHG:20141203-9,14:25:50.620][MasterTx] *Transaction COMMIT*
+^[1:PNHG:20141203-9,14:25:50.621][MasterTx] *Transaction CLOSE* [UserConnection[ManagedConnectionImpl[jdbc/oracle.d0.0]]]
+^[1:PNHG:20141203-9,14:25:50.621][WebFrameManager] ■■■ [CASE001.S03] FMB - #4[TM] : 처리 종료 (428 msec.)
+^[1:PNHG:20141203-9,14:25:50.621][WebFrameManager] ■■■ [CASE001.S03] FMB - #5[SM] : 처리 시작
+^[1:PNHG:20141203-9,14:25:50.621][FMB-SM] 세션 확인 [UserId:*Unknown*, IP:127.0.0.1, Login:false]
+^[1:PNHG:20141203-9,14:25:50.649][WebFrameManager] ■■■ [CASE001.S03] FMB - #5[SM] : 처리 종료 (28 msec.)
+^[1:PNHG:20141203-9,14:25:50.649][WebFrameManager] ■■■ [CASE001.S03] FMB - #6[OP] : 처리 시작
+^[1:PNHG:20141203-9,14:25:50.649][FMB-OP] 정상출력처리 [JSP]
+^[1:PNHG:20141203-9,14:25:50.649][FMB-OP] 출력데이타 규모 : 
+□□□ EffectDTO □□□
+▶ Model  사이즈 : 0
+□□□ CommonDTO □□□
+▶ System : 0
+▶ Master : 0
+▶ MTO Set : 0 []
+▶ ATO Set : 0 []
+▶ LTO Set : 0 []
+▶ RTO Set : 0 []
+^[1:PNHG:20141203-9,14:25:50.649][WebFrameManager] ■■■ [CASE001.S03] FMB - #6[OP] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-9,14:25:50.666][WebFrameManager] ■■■ [CASE001.S03] FMB - #7[PP] : 처리 시작
+^[1:PNHG:20141203-9,14:25:50.666][FMB-PP] 페이지 포워드 PATH 경로 : [/demo/edu/case001s03.jsp]
+^[1:PNHG:20141203-9,14:25:50.820][WebFrameManager] ■■■ [CASE001.S03] FMB - #7[PP] : 처리 종료 (154 msec.)
+^[1:PNHG:20141203-9,14:25:50.820][WebFrameManager] ■■■■■■ FMB 서비스 처리를 종료합니다. (총 수행시간 : 657 msec.)
+^[1:PNHG:20141203-10,14:38:15.334][WebFrameManager] 
+^[1:PNHG:20141203-10,14:38:15.335][WebFrameManager] ■■■■■■ FMB 서비스 처리를 시작합니다. ■■■■■■■■■■■■■■■■■■
+^[1:PNHG:20141203-10,14:38:15.335][Engine] [CustomClassLoader] *RELOADED*
+^[1:PNHG:20141203-10,14:38:15.335][WebFrameManager] ■■■ [*UNKNOWN*] FMB - #1[CP] : 처리 시작
+^[1:PNHG:20141203-10,14:38:15.335][FMB-CP] 요청된 커맨드 정보 : [CASE001.S04]
+^[1:PNHG:20141203-10,14:38:15.335][CommandRepository] >>>>> CHECKING META INTEGRITY >>>>>
+^[1:PNHG:20141203-10,14:38:15.337][System] [META:EXCEL] Loading.. [SysCommandMeta.xls] (23)
+^[1:PNHG:20141203-10,14:38:15.351][System] [META:EXCEL] Loading.. [CommandMeta.xls] (0)
+^[1:PNHG:20141203-10,14:38:15.359][System] [META:EXCEL] Loading.. [EDU-01. CaseStudy.xls] (31)
+^[1:PNHG:20141203-10,14:38:15.364][System] [META:EXCEL] Loading.. [EDU-02. PracticeStudy.xls] (16)
+^[1:PNHG:20141203-10,14:38:15.369][System] [META:EXCEL] Loading.. [EX-01. BasicSample.xls] (39)
+^[1:PNHG:20141203-10,14:38:15.374][System] [META:EXCEL] Loading.. [EX-10. RIA_WISE.xls] (29)
+^[1:PNHG:20141203-10,14:38:15.378][System] [META:EXCEL] Loading.. [EX-21. SAP_Sample.xls] (2)
+^[1:PNHG:20141203-10,14:38:15.380][System] [META:EXCEL] Loading.. [SSO-01. Cert_Service.xls] (4)
+^[1:PNHG:20141203-10,14:38:15.382][System] [META:EXCEL] Loading.. [SYS-00. 공통.xls] (2)
+^[1:PNHG:20141203-10,14:38:15.382][CommandRepository] *RELOADED*
+^[1:PNHG:20141203-10,14:38:15.383][FMB-CP] 커맨드 로딩 완료 : [CASE001.S04]
+^[1:PNHG:20141203-10,14:38:15.383][WebFrameManager] ■■■ [CASE001.S04] FMB - #1[CP] : 처리 종료 (48 msec.)
+^[1:PNHG:20141203-10,14:38:15.383][WebFrameManager] ■■■ [CASE001.S04] FMB - #2[SP] : 처리 시작
+^[1:PNHG:20141203-10,14:38:15.383][FMB-SP] SESSION-ID [aaaYalrAO_zZtcdKl8eOu]
+^[1:PNHG:20141203-10,14:38:15.383][FMB-SP] 세션확인 성공 : [UserId:*Unknown*, Login:false]
+^[1:PNHG:20141203-10,14:38:15.384][WebFrameManager] ■■■ [CASE001.S04] FMB - #2[SP] : 처리 종료 (1 msec.)
+^[1:PNHG:20141203-10,14:38:15.384][WebFrameManager] ■■■ [CASE001.S04] FMB - #3[IP] : 처리 시작
+^[1:PNHG:20141203-10,14:38:15.384][FMB-IP] 입력데이타 파싱 [WEB]
+^[1:PNHG:20141203-10,14:38:15.384][WebFrameManager] ■■■ [CASE001.S04] FMB - #3[IP] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-10,14:38:15.385][WebFrameManager] ■■■ [CASE001.S04] FMB - #4[TM] : 처리 시작
+^[1:PNHG:20141203-10,14:38:15.385][FMB-TM] 
+□□□□□ CauseDTO □□□□□
+<Command:CASE001.S04><Tx:edu.case001.CASE001S04AC><WEB, XML, >
+□□□ CommonDTO □□□
+▶ System 변수 내역:
+[MTO Contents (R) :<Referer:http://localhost/AC_LIST_GRP.cmd><RequestURI:/CASE001.S04.cmd><RequestURL:http://localhost/CASE001.S04.cmd><ServerName:localhost>]
+▶ Master 변수 내역:
+[MTO Contents (R) :]
+▶ MTO 데이타 내역:
+▶ ATO 데이타 내역:
+▶ LTO 데이타 내역:
+^[1:PNHG:20141203-10,14:38:15.391][ServiceCache] *NEW* [edu.case001.CASE001S04AC]
+^[1:PNHG:20141203-10,14:38:15.420][CASE001S04AC] ▶▶▶▶▶▶ LOAD AC [CASE001S04AC]
+^[1:PNHG:20141203-10,14:38:15.435][ConnectionManager] [데이타소스] 메인DB  [Oracle,java:comp/env/jdbc/oracle] 커낵션 획득
+^[1:PNHG:20141203-10,14:38:15.435][MasterTx] *Transaction BEGIN* [AUTO-COMMIT:false]
+^[1:PNHG:20141203-10,14:38:15.435][MasterTx] *Transaction COMMIT*
+^[1:PNHG:20141203-10,14:38:15.436][MasterTx] *Transaction CLOSE* [UserConnection[ManagedConnectionImpl[jdbc/oracle.d0.1]]]
+^[1:PNHG:20141203-10,14:38:15.436][WebFrameManager] ■■■ [CASE001.S04] FMB - #4[TM] : 처리 종료 (51 msec.)
+^[1:PNHG:20141203-10,14:38:15.436][WebFrameManager] ■■■ [CASE001.S04] FMB - #5[SM] : 처리 시작
+^[1:PNHG:20141203-10,14:38:15.436][FMB-SM] 세션 확인 [UserId:*Unknown*, IP:127.0.0.1, Login:false]
+^[1:PNHG:20141203-10,14:38:15.439][WebFrameManager] ■■■ [CASE001.S04] FMB - #5[SM] : 처리 종료 (3 msec.)
+^[1:PNHG:20141203-10,14:38:15.439][WebFrameManager] ■■■ [CASE001.S04] FMB - #6[OP] : 처리 시작
+^[1:PNHG:20141203-10,14:38:15.441][FMB-OP] 정상출력처리 [XML]
+^[1:PNHG:20141203-10,14:38:15.441][FMB-OP] 출력데이타 규모 : 
+□□□ EffectDTO □□□
+▶ Model  사이즈 : 0
+□□□ CommonDTO □□□
+▶ System : 0
+▶ Master : 0
+▶ MTO Set : 0 []
+▶ ATO Set : 0 []
+▶ LTO Set : 0 []
+▶ RTO Set : 0 []
+^[1:PNHG:20141203-10,14:38:15.446][TextGen] ▧▧▧▧▧▧▧▧▧▧ Text 생성 관련 스켈리톤 Template 파일 : 
+^[1:PNHG:20141203-10,14:38:15.453][TextGen] D:/AWSProject/workspace/daframe20_evaluation_test/app.war//WEB-INF/conf/mci/OP_XML_TYPE_01.src
+^[1:PNHG:20141203-10,14:38:15.453][TextGen] ▧▧▧▧▧▧▧▧▧▧ Text 생성을 시작합니다.
+^[1:PNHG:20141203-10,14:38:15.533][WebFrameManager] ■■■ [CASE001.S04] FMB - #6[OP] : 처리 종료 (94 msec.)
+^[1:PNHG:20141203-10,14:38:15.533][WebFrameManager] ■■■ [CASE001.S04] FMB - #7[PP] : 처리 SKIP!! (*처리 불필요*)
+^[1:PNHG:20141203-10,14:38:15.533][WebFrameManager] ■■■ [CASE001.S04] FMB - #7[PP] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-10,14:38:15.533][WebFrameManager] ■■■■■■ FMB 서비스 처리를 종료합니다. (총 수행시간 : 199 msec.)
+^[1:PNHG:20141203-11,14:38:25.762][WebFrameManager] 
+^[1:PNHG:20141203-11,14:38:25.762][WebFrameManager] ■■■■■■ FMB 서비스 처리를 시작합니다. ■■■■■■■■■■■■■■■■■■
+^[1:PNHG:20141203-11,14:38:25.762][Engine] [CustomClassLoader] *RELOADED*
+^[1:PNHG:20141203-11,14:38:25.762][WebFrameManager] ■■■ [*UNKNOWN*] FMB - #1[CP] : 처리 시작
+^[1:PNHG:20141203-11,14:38:25.762][FMB-CP] 요청된 커맨드 정보 : [CASE001.S04]
+^[1:PNHG:20141203-11,14:38:25.762][CommandRepository] >>>>> CHECKING META INTEGRITY >>>>>
+^[1:PNHG:20141203-11,14:38:25.778][System] [META:EXCEL] Loading.. [SysCommandMeta.xls] (23)
+^[1:PNHG:20141203-11,14:38:25.778][System] [META:EXCEL] Loading.. [CommandMeta.xls] (0)
+^[1:PNHG:20141203-11,14:38:25.778][System] [META:EXCEL] Loading.. [EDU-01. CaseStudy.xls] (31)
+^[1:PNHG:20141203-11,14:38:25.794][System] [META:EXCEL] Loading.. [EDU-02. PracticeStudy.xls] (16)
+^[1:PNHG:20141203-11,14:38:25.797][System] [META:EXCEL] Loading.. [EX-01. BasicSample.xls] (39)
+^[1:PNHG:20141203-11,14:38:25.801][System] [META:EXCEL] Loading.. [EX-10. RIA_WISE.xls] (29)
+^[1:PNHG:20141203-11,14:38:25.803][System] [META:EXCEL] Loading.. [EX-21. SAP_Sample.xls] (2)
+^[1:PNHG:20141203-11,14:38:25.824][System] [META:EXCEL] Loading.. [SSO-01. Cert_Service.xls] (4)
+^[1:PNHG:20141203-11,14:38:25.826][System] [META:EXCEL] Loading.. [SYS-00. 공통.xls] (2)
+^[1:PNHG:20141203-11,14:38:25.826][CommandRepository] *RELOADED*
+^[1:PNHG:20141203-11,14:38:25.826][FMB-CP] 커맨드 로딩 완료 : [CASE001.S04]
+^[1:PNHG:20141203-11,14:38:25.826][WebFrameManager] ■■■ [CASE001.S04] FMB - #1[CP] : 처리 종료 (64 msec.)
+^[1:PNHG:20141203-11,14:38:25.826][WebFrameManager] ■■■ [CASE001.S04] FMB - #2[SP] : 처리 시작
+^[1:PNHG:20141203-11,14:38:25.836][FMB-SP] SESSION-ID [aaaYalrAO_zZtcdKl8eOu]
+^[1:PNHG:20141203-11,14:38:25.836][FMB-SP] 세션확인 성공 : [UserId:*Unknown*, Login:false]
+^[1:PNHG:20141203-11,14:38:25.837][WebFrameManager] ■■■ [CASE001.S04] FMB - #2[SP] : 처리 종료 (11 msec.)
+^[1:PNHG:20141203-11,14:38:25.837][WebFrameManager] ■■■ [CASE001.S04] FMB - #3[IP] : 처리 시작
+^[1:PNHG:20141203-11,14:38:25.837][FMB-IP] 입력데이타 파싱 [WEB]
+^[1:PNHG:20141203-11,14:38:25.837][WebFrameManager] ■■■ [CASE001.S04] FMB - #3[IP] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-11,14:38:25.860][WebFrameManager] ■■■ [CASE001.S04] FMB - #4[TM] : 처리 시작
+^[1:PNHG:20141203-11,14:38:25.860][FMB-TM] 
+□□□□□ CauseDTO □□□□□
+<Command:CASE001.S04><Tx:edu.case001.CASE001S04AC><WEB, XML, >
+□□□ CommonDTO □□□
+▶ System 변수 내역:
+[MTO Contents (R) :<Referer:http://localhost/AC_LIST_GRP.cmd><RequestURI:/CASE001.S04.cmd><RequestURL:http://localhost/CASE001.S04.cmd><ServerName:localhost>]
+▶ Master 변수 내역:
+[MTO Contents (R) :<aaa:111>]
+▶ MTO 데이타 내역:
+▶ ATO 데이타 내역:
+[1] [aaa] [ATO Contents:<111>]
+▶ LTO 데이타 내역:
+^[1:PNHG:20141203-11,14:38:25.880][ServiceCache] *NEW* [edu.case001.CASE001S04AC]
+^[1:PNHG:20141203-11,14:38:25.882][CASE001S04AC] ▶▶▶▶▶▶ LOAD AC [CASE001S04AC]
+^[1:PNHG:20141203-11,14:38:25.882][ConnectionManager] [데이타소스] 메인DB  [Oracle,java:comp/env/jdbc/oracle] 커낵션 획득
+^[1:PNHG:20141203-11,14:38:25.882][MasterTx] *Transaction BEGIN* [AUTO-COMMIT:false]
+^[1:PNHG:20141203-11,14:38:25.882][MasterTx] *Transaction COMMIT*
+^[1:PNHG:20141203-11,14:38:25.883][MasterTx] *Transaction CLOSE* [UserConnection[ManagedConnectionImpl[jdbc/oracle.d0.1]]]
+^[1:PNHG:20141203-11,14:38:25.909][WebFrameManager] ■■■ [CASE001.S04] FMB - #4[TM] : 처리 종료 (49 msec.)
+^[1:PNHG:20141203-11,14:38:25.909][WebFrameManager] ■■■ [CASE001.S04] FMB - #5[SM] : 처리 시작
+^[1:PNHG:20141203-11,14:38:25.910][FMB-SM] 세션 확인 [UserId:*Unknown*, IP:127.0.0.1, Login:false]
+^[1:PNHG:20141203-11,14:38:25.910][WebFrameManager] ■■■ [CASE001.S04] FMB - #5[SM] : 처리 종료 (1 msec.)
+^[1:PNHG:20141203-11,14:38:25.910][WebFrameManager] ■■■ [CASE001.S04] FMB - #6[OP] : 처리 시작
+^[1:PNHG:20141203-11,14:38:25.933][FMB-OP] 정상출력처리 [XML]
+^[1:PNHG:20141203-11,14:38:25.933][FMB-OP] 출력데이타 규모 : 
+□□□ EffectDTO □□□
+▶ Model  사이즈 : 0
+□□□ CommonDTO □□□
+▶ System : 0
+▶ Master : 1
+▶ MTO Set : 0 []
+▶ ATO Set : 1 [aaa:1, ]
+▶ LTO Set : 0 []
+▶ RTO Set : 0 []
+^[1:PNHG:20141203-11,14:38:25.933][TextGen] ▧▧▧▧▧▧▧▧▧▧ Text 생성 관련 스켈리톤 Template 파일 : 
+^[1:PNHG:20141203-11,14:38:25.933][TextGen] D:/AWSProject/workspace/daframe20_evaluation_test/app.war//WEB-INF/conf/mci/OP_XML_TYPE_01.src
+^[1:PNHG:20141203-11,14:38:25.944][TextGen] ▧▧▧▧▧▧▧▧▧▧ Text 생성을 시작합니다.
+^[1:PNHG:20141203-11,14:38:25.960][WebFrameManager] ■■■ [CASE001.S04] FMB - #6[OP] : 처리 종료 (50 msec.)
+^[1:PNHG:20141203-11,14:38:25.960][WebFrameManager] ■■■ [CASE001.S04] FMB - #7[PP] : 처리 SKIP!! (*처리 불필요*)
+^[1:PNHG:20141203-11,14:38:25.960][WebFrameManager] ■■■ [CASE001.S04] FMB - #7[PP] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-11,14:38:25.960][WebFrameManager] ■■■■■■ FMB 서비스 처리를 종료합니다. (총 수행시간 : 198 msec.)
+^[resin-35,15:09:03.279][Engine] [Session Watcher] Timeout! <*Unknown*:aaaYalrAO_zZtcdKl8eOu> Last Access Time is 2014.12.03 14:38:25
+^[1:PNHG:20141203-12,15:14:54.983][WebFrameManager] 
+^[1:PNHG:20141203-12,15:14:54.983][WebFrameManager] ■■■■■■ FMB 서비스 처리를 시작합니다. ■■■■■■■■■■■■■■■■■■
+^[1:PNHG:20141203-12,15:14:54.983][Engine] [CustomClassLoader] *RELOADED*
+^[1:PNHG:20141203-12,15:14:54.984][WebFrameManager] ■■■ [*UNKNOWN*] FMB - #1[CP] : 처리 시작
+^[1:PNHG:20141203-12,15:14:54.984][FMB-CP] 요청된 커맨드 정보 : [CASE001.S04]
+^[1:PNHG:20141203-12,15:14:54.984][CommandRepository] >>>>> CHECKING META INTEGRITY >>>>>
+^[1:PNHG:20141203-12,15:14:54.986][System] [META:EXCEL] Loading.. [SysCommandMeta.xls] (23)
+^[1:PNHG:20141203-12,15:14:54.988][System] [META:EXCEL] Loading.. [CommandMeta.xls] (0)
+^[1:PNHG:20141203-12,15:14:54.995][System] [META:EXCEL] Loading.. [EDU-01. CaseStudy.xls] (31)
+^[1:PNHG:20141203-12,15:14:54.998][System] [META:EXCEL] Loading.. [EDU-02. PracticeStudy.xls] (16)
+^[1:PNHG:20141203-12,15:14:55.002][System] [META:EXCEL] Loading.. [EX-01. BasicSample.xls] (39)
+^[1:PNHG:20141203-12,15:14:55.005][System] [META:EXCEL] Loading.. [EX-10. RIA_WISE.xls] (29)
+^[1:PNHG:20141203-12,15:14:55.008][System] [META:EXCEL] Loading.. [EX-21. SAP_Sample.xls] (2)
+^[1:PNHG:20141203-12,15:14:55.010][System] [META:EXCEL] Loading.. [SSO-01. Cert_Service.xls] (4)
+^[1:PNHG:20141203-12,15:14:55.011][System] [META:EXCEL] Loading.. [SYS-00. 공통.xls] (2)
+^[1:PNHG:20141203-12,15:14:55.011][CommandRepository] *RELOADED*
+^[1:PNHG:20141203-12,15:14:55.012][FMB-CP] 커맨드 로딩 완료 : [CASE001.S04]
+^[1:PNHG:20141203-12,15:14:55.012][WebFrameManager] ■■■ [CASE001.S04] FMB - #1[CP] : 처리 종료 (28 msec.)
+^[1:PNHG:20141203-12,15:14:55.012][WebFrameManager] ■■■ [CASE001.S04] FMB - #2[SP] : 처리 시작
+^[1:PNHG:20141203-12,15:14:55.012][FMB-SP] SESSION-ID [aaaYalrAO_zZtcdKl8eOu]
+^[1:PNHG:20141203-12,15:14:55.012][FMB-SP] 세션확인 성공 : [UserId:*Unknown*, Login:false]
+^[1:PNHG:20141203-12,15:14:55.012][WebFrameManager] ■■■ [CASE001.S04] FMB - #2[SP] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-12,15:14:55.012][WebFrameManager] ■■■ [CASE001.S04] FMB - #3[IP] : 처리 시작
+^[1:PNHG:20141203-12,15:14:55.012][FMB-IP] 입력데이타 파싱 [WEB]
+^[1:PNHG:20141203-12,15:14:55.013][WebFrameManager] ■■■ [CASE001.S04] FMB - #3[IP] : 처리 종료 (1 msec.)
+^[1:PNHG:20141203-12,15:14:55.013][WebFrameManager] ■■■ [CASE001.S04] FMB - #4[TM] : 처리 시작
+^[1:PNHG:20141203-12,15:14:55.013][FMB-TM] 
+□□□□□ CauseDTO □□□□□
+<Command:CASE001.S04><Tx:edu.case001.CASE001S04AC><WEB, XML, >
+□□□ CommonDTO □□□
+▶ System 변수 내역:
+[MTO Contents (R) :<Referer:http://localhost/AC_LIST_GRP.cmd><RequestURI:/CASE001.S04.cmd><RequestURL:http://localhost/CASE001.S04.cmd><ServerName:localhost>]
+▶ Master 변수 내역:
+[MTO Contents (R) :<aaa:111>]
+▶ MTO 데이타 내역:
+▶ ATO 데이타 내역:
+[1] [aaa] [ATO Contents:<111>]
+▶ LTO 데이타 내역:
+^[1:PNHG:20141203-12,15:14:55.013][ServiceCache] *NEW* [edu.case001.CASE001S04AC]
+^[1:PNHG:20141203-12,15:14:55.015][CASE001S04AC] ▶▶▶▶▶▶ LOAD AC [CASE001S04AC]
+^[1:PNHG:20141203-12,15:14:55.030][ConnectionManager] [데이타소스] 메인DB  [Oracle,java:comp/env/jdbc/oracle] 커낵션 획득
+^[1:PNHG:20141203-12,15:14:55.030][MasterTx] *Transaction BEGIN* [AUTO-COMMIT:false]
+^[1:PNHG:20141203-12,15:14:55.030][MasterTx] *Transaction COMMIT*
+^[1:PNHG:20141203-12,15:14:55.030][MasterTx] *Transaction CLOSE* [UserConnection[ManagedConnectionImpl[jdbc/oracle.d0.2]]]
+^[1:PNHG:20141203-12,15:14:55.031][WebFrameManager] ■■■ [CASE001.S04] FMB - #4[TM] : 처리 종료 (18 msec.)
+^[1:PNHG:20141203-12,15:14:55.031][WebFrameManager] ■■■ [CASE001.S04] FMB - #5[SM] : 처리 시작
+^[1:PNHG:20141203-12,15:14:55.031][FMB-SM] 세션 등록 [UserId:*Unknown*, IP:127.0.0.1, Login:false]
+^[1:PNHG:20141203-12,15:14:55.031][WebFrameManager] ■■■ [CASE001.S04] FMB - #5[SM] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-12,15:14:55.031][WebFrameManager] ■■■ [CASE001.S04] FMB - #6[OP] : 처리 시작
+^[1:PNHG:20141203-12,15:14:55.031][FMB-OP] 정상출력처리 [XML]
+^[1:PNHG:20141203-12,15:14:55.031][FMB-OP] 출력데이타 규모 : 
+□□□ EffectDTO □□□
+▶ Model  사이즈 : 0
+□□□ CommonDTO □□□
+▶ System : 0
+▶ Master : 1
+▶ MTO Set : 0 []
+▶ ATO Set : 1 [aaa:1, ]
+▶ LTO Set : 0 []
+▶ RTO Set : 0 []
+^[1:PNHG:20141203-12,15:14:55.031][TextGen] ▧▧▧▧▧▧▧▧▧▧ Text 생성 관련 스켈리톤 Template 파일 : 
+^[1:PNHG:20141203-12,15:14:55.032][TextGen] D:/AWSProject/workspace/daframe20_evaluation_test/app.war//WEB-INF/conf/mci/OP_XML_TYPE_01.src
+^[1:PNHG:20141203-12,15:14:55.032][TextGen] ▧▧▧▧▧▧▧▧▧▧ Text 생성을 시작합니다.
+^[1:PNHG:20141203-12,15:14:55.042][WebFrameManager] ■■■ [CASE001.S04] FMB - #6[OP] : 처리 종료 (11 msec.)
+^[1:PNHG:20141203-12,15:14:55.042][WebFrameManager] ■■■ [CASE001.S04] FMB - #7[PP] : 처리 SKIP!! (*처리 불필요*)
+^[1:PNHG:20141203-12,15:14:55.042][WebFrameManager] ■■■ [CASE001.S04] FMB - #7[PP] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-12,15:14:55.042][WebFrameManager] ■■■■■■ FMB 서비스 처리를 종료합니다. (총 수행시간 : 59 msec.)
+^[1:PNHG:20141203-13,15:15:34.523][WebFrameManager] 
+^[1:PNHG:20141203-13,15:15:34.523][WebFrameManager] ■■■■■■ FMB 서비스 처리를 시작합니다. ■■■■■■■■■■■■■■■■■■
+^[1:PNHG:20141203-13,15:15:34.523][Engine] [CustomClassLoader] *RELOADED*
+^[1:PNHG:20141203-13,15:15:34.523][WebFrameManager] ■■■ [*UNKNOWN*] FMB - #1[CP] : 처리 시작
+^[1:PNHG:20141203-13,15:15:34.523][FMB-CP] 요청된 커맨드 정보 : [ADM001.A05]
+^[1:PNHG:20141203-13,15:15:34.523][CommandRepository] >>>>> CHECKING META INTEGRITY >>>>>
+^[1:PNHG:20141203-13,15:15:34.523][System] [META:EXCEL] Loading.. [SysCommandMeta.xls] (23)
+^[1:PNHG:20141203-13,15:15:34.539][System] [META:EXCEL] Loading.. [CommandMeta.xls] (0)
+^[1:PNHG:20141203-13,15:15:34.542][System] [META:EXCEL] Loading.. [EDU-01. CaseStudy.xls] (31)
+^[1:PNHG:20141203-13,15:15:34.545][System] [META:EXCEL] Loading.. [EDU-02. PracticeStudy.xls] (16)
+^[1:PNHG:20141203-13,15:15:34.549][System] [META:EXCEL] Loading.. [EX-01. BasicSample.xls] (39)
+^[1:PNHG:20141203-13,15:15:34.552][System] [META:EXCEL] Loading.. [EX-10. RIA_WISE.xls] (29)
+^[1:PNHG:20141203-13,15:15:34.555][System] [META:EXCEL] Loading.. [EX-21. SAP_Sample.xls] (2)
+^[1:PNHG:20141203-13,15:15:34.557][System] [META:EXCEL] Loading.. [SSO-01. Cert_Service.xls] (4)
+^[1:PNHG:20141203-13,15:15:34.558][System] [META:EXCEL] Loading.. [SYS-00. 공통.xls] (2)
+^[1:PNHG:20141203-13,15:15:34.559][CommandRepository] *RELOADED*
+^[1:PNHG:20141203-13,15:15:34.559][FMB-CP] 커맨드 로딩 완료 : [ADM001.A05]
+^[1:PNHG:20141203-13,15:15:34.559][WebFrameManager] ■■■ [ADM001.A05] FMB - #1[CP] : 처리 종료 (36 msec.)
+^[1:PNHG:20141203-13,15:15:34.559][WebFrameManager] ■■■ [ADM001.A05] FMB - #2[SP] : 처리 시작
+^[1:PNHG:20141203-13,15:15:34.559][FMB-SP] SESSION-ID [aaaYalrAO_zZtcdKl8eOu]
+^[1:PNHG:20141203-13,15:15:34.559][FMB-SP] 세션확인 성공 : [UserId:*Unknown*, Login:false]
+^[1:PNHG:20141203-13,15:15:34.559][WebFrameManager] ■■■ [ADM001.A05] FMB - #2[SP] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-13,15:15:34.559][WebFrameManager] ■■■ [ADM001.A05] FMB - #3[IP] : 처리 시작
+^[1:PNHG:20141203-13,15:15:34.559][FMB-IP] 입력데이타 파싱 [WEB-CHK-ADM]
+^[1:PNHG:20141203-13,15:15:34.560][IPW002CC] *ADMIN ACCESS 성공* [NO_CHECK]
+^[1:PNHG:20141203-13,15:15:34.560][WebFrameManager] ■■■ [ADM001.A05] FMB - #3[IP] : 처리 종료 (1 msec.)
+^[1:PNHG:20141203-13,15:15:34.561][WebFrameManager] ■■■ [ADM001.A05] FMB - #4[TM] : 처리 시작
+^[1:PNHG:20141203-13,15:15:34.561][FMB-TM] 
+□□□□□ CauseDTO □□□□□
+<Command:ADM001.A05><NA:com.cni.fw.made.web.ac.admin.TxLogTrackerAC><WEB-CHK-ADM, JSP, /base/fw_logTracking.jsp>
+□□□ CommonDTO □□□
+▶ System 변수 내역:
+[MTO Contents (R) :<Referer:http://localhost/AC_LIST_GRP.cmd><RequestURI:/ADM001.A05.cmd><RequestURL:http://localhost/ADM001.A05.cmd><ServerName:localhost>]
+▶ Master 변수 내역:
+[MTO Contents (R) :<txId:CASE001.S04>]
+▶ MTO 데이타 내역:
+▶ ATO 데이타 내역:
+[1] [txId] [ATO Contents:<CASE001.S04>]
+▶ LTO 데이타 내역:
+^[1:PNHG:20141203-13,15:15:34.562][ServiceCache] *NEW* [com.cni.fw.made.web.ac.admin.TxLogTrackerAC]
+^[1:PNHG:20141203-13,15:15:34.567][TxLogTrackerAC] ▶▶▶▶▶▶ LOAD AC [TxLogTrackerAC]
+^[1:PNHG:20141203-13,15:15:34.567][TxLogTrackerAC] 입력받은 CMD[CASE001.S04]를 기준으로 최종 TX_ID를 검색합니다.
+^[1:PNHG:20141203-13,15:15:34.567][TxLogTrackerAC] 트래킹 대상 TX => 1:PNHG:20141203-12
+^[1:PNHG:20141203-13,15:15:34.567][TxLogTrackerAC] TX[1:PNHG:20141203-12] 트래킹을 시작합니다
+^[1:PNHG:20141203-13,15:15:34.571][TxLogTrackerAC] 트래킹을 종료합니다. [로그 사이즈:4679 Byte]
+^[1:PNHG:20141203-13,15:15:34.572][WebFrameManager] ■■■ [ADM001.A05] FMB - #4[TM] : 처리 종료 (11 msec.)
+^[1:PNHG:20141203-13,15:15:34.572][WebFrameManager] ■■■ [ADM001.A05] FMB - #5[SM] : 처리 시작
+^[1:PNHG:20141203-13,15:15:34.572][FMB-SM] 세션 확인 [UserId:*Unknown*, IP:127.0.0.1, Login:false]
+^[1:PNHG:20141203-13,15:15:34.572][WebFrameManager] ■■■ [ADM001.A05] FMB - #5[SM] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-13,15:15:34.572][WebFrameManager] ■■■ [ADM001.A05] FMB - #6[OP] : 처리 시작
+^[1:PNHG:20141203-13,15:15:34.572][FMB-OP] 정상출력처리 [JSP]
+^[1:PNHG:20141203-13,15:15:34.572][FMB-OP] 출력데이타 규모 : 
+□□□ EffectDTO □□□
+▶ Model  사이즈 : 0
+□□□ CommonDTO □□□
+▶ System : 0
+▶ Master : 1
+▶ MTO Set : 0 []
+▶ ATO Set : 0 []
+▶ LTO Set : 0 []
+▶ RTO Set : 0 []
+^[1:PNHG:20141203-13,15:15:34.572][WebFrameManager] ■■■ [ADM001.A05] FMB - #6[OP] : 처리 종료 (0 msec.)
+^[1:PNHG:20141203-13,15:15:34.573][WebFrameManager] ■■■ [ADM001.A05] FMB - #7[PP] : 처리 시작
+^[1:PNHG:20141203-13,15:15:34.573][FMB-PP] 페이지 포워드 PATH 경로 : [/base/fw_logTracking.jsp]
+^[1:PNHG:20141203-13,15:15:34.641][WebFrameManager] ■■■ [ADM001.A05] FMB - #7[PP] : 처리 종료 (68 msec.)
+^[1:PNHG:20141203-13,15:15:34.641][WebFrameManager] ■■■■■■ FMB 서비스 처리를 종료합니다. (총 수행시간 : 118 msec.)
+^[resin-24,15:46:03.570][Engine] [Session Watcher] Timeout! <*Unknown*:aaaYalrAO_zZtcdKl8eOu> Last Access Time is 2014.12.03 15:15:34

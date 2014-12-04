@@ -1,0 +1,15 @@
+SMAP
+_case006f01__jsp.java
+JSP
+*S JSP
+*F
++ 1 case006f01.jsp
+demo/edu/case006f01.jsp
++ 2 ArchJsp.jspf
+base/include/ArchJsp.jspf
+*L
+1#1:62
+10#2,9:63
+2#1:72
+15#1:73
+*E
